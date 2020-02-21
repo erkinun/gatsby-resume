@@ -10,6 +10,10 @@ const Experience = ({ data }) => (
           <h3 className="item-sub">
             {item.company} | {item.start} - {item.end || 'PRESENT'}
           </h3>
+          {
+            // TODO change the way tech and description is represented
+          }
+          <p className="py-6">Tech used: {item.tech}</p>
           <p className="py-6">{item.description}</p>
         </article>
       ))}

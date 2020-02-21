@@ -1,9 +1,9 @@
 {
   "contact": {
-    "phone": "+380 63 251 76 44",
-    "email": "contact@barancezayirli.com",
-    "website": "https://barancezayirli.com",
-    "location": "Kiev, Ukraine"
+    "phone": "+749 150 70 93",
+    "email": "erkinun@gmail.com",
+    "website": "https://erkinunlu.com",
+    "location": "London, United Kingdom"
   },
   "skills": [
     {
@@ -19,36 +19,12 @@
           "percent": 95
         },
         {
-          "name": "Product Management",
-          "percent": 85
-        },
-        {
-          "name": "Project Management",
-          "percent": 92
-        },
-        {
-          "name": "Game Development",
-          "percent": 70
-        },
-        {
-          "name": "Blockchain",
-          "percent": 85
-        },
-        {
           "name": "Dev Ops",
           "percent": 81
         },
         {
           "name": "Backend Development",
           "percent": 93
-        },
-        {
-          "name": "Data Science",
-          "percent": 65
-        },
-        {
-          "name": "Artificial Intelligence",
-          "percent": 70
         },
         {
           "name": "UX",
@@ -69,24 +45,12 @@
           "percent": 82
         },
         {
-          "name": "Python",
-          "percent": 85
+          "name": "Scala",
+          "percent": 82
         },
         {
-          "name": "C#",
-          "percent": 74
-        },
-        {
-          "name": "Solidity",
-          "percent": 85
-        },
-        {
-          "name": "Dart",
-          "percent": 75
-        },
-        {
-          "name": "Go",
-          "percent": 60
+          "name": "Clojure",
+          "percent": 82
         }
       ]
     },
@@ -98,61 +62,10 @@
           "name": "React"
         },
         {
-          "name": "Flutter"
-        },
-        {
-          "name": "React Native"
-        },
-        {
-          "name": "Vue"
-        },
-        {
-          "name": "Spring"
-        },
-        {
-          "name": "Angular"
-        },
-        {
-          "name": "Electron"
-        },
-        {
           "name": "Node"
         },
         {
-          "name": "Flusk"
-        },
-        {
-          "name": "Express"
-        },
-        {
-          "name": "Koa"
-        },
-        {
           "name": "Gatsby"
-        },
-        {
-          "name": "Apollo"
-        },
-        {
-          "name": "Django"
-        },
-        {
-          "name": "Loopback"
-        },
-        {
-          "name": "Next"
-        },
-        {
-          "name": "Amplify"
-        },
-        {
-          "name": "Pixi"
-        },
-        {
-          "name": "Phaser"
-        },
-        {
-          "name": "Feathers"
         }
       ]
     },
@@ -165,15 +78,6 @@
         },
         {
           "name": "Jira"
-        },
-        {
-          "name": "Unity"
-        },
-        {
-          "name": "Godot"
-        },
-        {
-          "name": "Google Analytics"
         }
       ]
     },
@@ -185,84 +89,84 @@
           "name": "Postgresql"
         },
         {
-          "name": "Mongodb"
-        },
-        {
-          "name": "Parse"
-        },
-        {
           "name": "Firebase"
-        },
-        {
-          "name": "Elastic Search"
         }
       ]
     }
   ],
-  "summary": "Highly focused technologist with a multidisciplinary skill set honed over 10+ years in the IT industry. I strive to build great products and can take an initial idea, tackle it from multiple angles and take it from something great to something incredible. With 10+ years of experience in various industries, I help tech startups from idea phase to high volumes. I design and build scalable solutions, implement internal processes that fit your organization, build teams that produce results.",
+  "summary": "Software Engineer focused on Functional Programming. I'm currently teaching myself ReactJs and Clojure.",
   "education": [
     {
-      "institution": "Middle East Technical University, Turkey",
-      "degree": "Geological Engineering",
-      "start": "2013",
-      "end": "2006"
-    },
-    {
-      "institution": "Gazi University, Turkey",
-      "degree": "Industrial Engineering",
-      "start": "2002",
-      "end": "2006"
+      "institution": "Istanbul Technical University, Turkey",
+      "degree": "Bachelor of Science (BS), Computer Engineering",
+      "start": "2004",
+      "end": "2008"
     }
   ],
   "experience": [
     {
-      "role": "Consultant",
-      "company": "Baran Cezayirli Consulting",
-      "description": "I consult startups to take their concept to the next level.",
-      "start": "08/2018",
+      "role": "Senior Software Engineer",
+      "company": "Uswitch Limited",
+      "tech": "clojure, javascript, docker, kubernetes, react, redux, ring, node, lein",
+      "description": "I have been contributing to the affiliate platform team in the revenue estimation projects. I've started the first React project of the team, completed it to production and wrote the backend in a Clojure Ring App at the same time.",
+      "start": "09/2019",
       "end": ""
     },
     {
-      "role": "Full Stack Tech Lead",
-      "company": "Malaeb Limited",
-      "description": "Malaeb is a group sports community and booking platform. I was managing all technical aspects of the product. I designed a new solution to improve the current platform, build and manage a new development team to migrate the new app. Implement better internal processes to increase productivity.",
-      "start": "11/2018",
+      "role": "Senior Software Engineer",
+      "company": "Quantemplate",
+      "tech": "scala, akka, reactjs, javascript, sbt, typescript, docker, ansible, amazon-web-services, kibana, aws- lambda",
+      "description": "I have been contributing to all aspects of the product including the backend services written in Scala with Akka Sharding, the frontend application which is migrating to ReactJs with Typescript and based on AWS .",
+      "start": "03/2018",
       "end": "09/2019"
     },
     {
-      "role": "Full Stack Tech Lead",
-      "company": "Solve Care",
-      "description": "Solve care is a healthcare blockchain platform. I was responsible for the client side development team and architecture of the platform. I was also active in product management team.",
-      "start": "04/2018",
-      "end": "11/2018"
+      "role": "Scala Developer",
+      "company": "Jobsite UK",
+      "tech": "scala, apache-spark, amazon-web-services, jenkins, sbt ",
+      "description": "I was a part of the team that builds the pipeline of data that is being used by other applications through out the whole company.",
+      "start": "02/2017",
+      "end": "03/2018"
     },
     {
-      "role": "Full Stack Lead Developer",
-      "company": "Applied Blockchain",
-      "description": "Applied Blockchain built blockchain applications for enterprises and startups. I built 4 full stack blockchain projects during my contract.",
-      "start": "10/2017",
-      "end": "04/2018"
+      "role": "Senior Devops Engineer",
+      "company": "TripAdvisor",
+      "tech": "java, gradle, jenkins, continuous-integration, postgresql, python, shell, svn, graphite",
+      "description": "I had responsibilities for the development, build, QA and lab system of TripAdvisor. This included the development of the infrastructure, automating and monitoring it via setting up the metrics system, finally improve where possible.",
+      "start": "09/2015",
+      "end": "02/2017"
     },
     {
-      "role": "Full Stack Lead Developer",
-      "company": "Dmapper",
-      "description": "Worked as a lead full-stack developer for Cortex which is B2B audit automation software for Deloitte. I was responsible for the architecture and development of the platform, managing development team.",
-      "start": "12/2016",
-      "end": "10/2017"
+      "role": "Backend Team Leader",
+      "company": "Monitise",
+      "tech": "java, scala, tomcat, python, mysql, ant, maven, gradle, mercurial, sql-server, spring",
+      "description": "I started as software developer, then I have taken position of Backend Team Leader. Me and my team developed BKM Express and BKM Mobile applications which are rivals to PayPal Turkey. I also developed the main part of the company's mBanking solution, which is now in further development for various customers. Both BKM Express and mBanking is written in Java and Spring Framework, Scala/Play Framework is also used in the Web Api portion of BKM Express. I was responsible of the delivery, coordination and quality of the work of Backend team.",
+      "start": "03/2012",
+      "end": "08/2015"
     },
     {
-      "role": "Front End Developer - UI/UX Designer",
-      "company": "GovRight",
-      "description": "GovRight provides citizens the opportunity to understand and contribute to government and legislation. I was responsible for the UX and development of admin interface for the platform.",
-      "start": "11/2015",
-      "end": "04/2016"
+      "role": "Software Engineer",
+      "company": "Parkyeri",
+      "tech": "java, javascript, titanium",
+      "description": "In Parkyeri, we have prepared a project plan, architecture, requirement, high level design and low-level class design for a EU project. The development was in Spring framework and Java. We ha CRM project for Vailant which was implemented using J2EE Servlet technology, one of natural gas heater producers in Turkey.",
+      "start": "07/2011",
+      "end": "03/2012"
     },
     {
-      "role": "Full Stack Developer",
-      "company": "Freelance",
-      "description": "In the first years of my career, I had the privilege to work with many startups and building my own games and applications.",
-      "start": "04/2008",
-      "end": "01/2016"
+      "role": "Software Engineer",
+      "company": "Huawei",
+      "tech": "linux, c++, ace, network-programming",
+      "description": "Developed the event server and load balancing software of the service control gateway applications family. We have used linux servers with the network programming framework of ACE",
+      "start": "01/2010",
+      "end": "06/2011"
+    },
+    {
+      "role": "Software Engineer",
+      "company": "Smartsoft Information Technologies",
+      "tech": "C#, C++",
+      "description": "Developed both the front end and the backend of EMV Credit Card Fraud Prevention package, which was called SmartPack. The platform has both online and offline scenarios for fraud. For frontend I have used C# with .NET and for backend we have used C++ server applications that work on Windows Servers.",
+      "start": "06/2008",
+      "end": "01/2010"
     }
   ],
   "social": [
@@ -295,7 +199,7 @@
       "url": "https://www.instagram.com/barancezayirli"
     }
   ],
-  "role": "Technologist",
+  "role": "Software Engineer",
   "projects": [
     {
       "name": "Gatsby resume starter",
@@ -304,5 +208,12 @@
       "link": "https://github.com/barancezayirli/gatsby-resume-tailwind"
     }
   ],
-  "fullname": "Baran Cezayirli"
+  "todos": [
+    "sporapp",
+    "wishjoin",
+    "workout app",
+    "resume site",
+    "check github for more"
+  ],
+  "fullname": "Erkin Ünlü"
 }

@@ -8,6 +8,9 @@ const Footer = ({ social }) => (
       <span className="inline-block mr-1">
         © {new Date().getFullYear()} | Developed with
       </span>
+      {
+        // TODO maybe remove the heart icon?
+      }
       <span className="inline-block mr-1">
         <HeartIcon
           className="h-3 w-3 fill-current"
@@ -17,11 +20,11 @@ const Footer = ({ social }) => (
       <span className="inline-block mr-1">by</span>
       <a
         className="text-primary-500 hover:text-primary-700 font-bold"
-        href="https://barancezayirli.com"
+        href="https://erkinunlu.com"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Baran Cezayirli
+        Erkin Ünlü
       </a>
     </div>
     {social && (

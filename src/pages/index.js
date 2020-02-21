@@ -8,10 +8,16 @@ import {
   List,
   Education,
   Footer,
-  SEO
+  SEO,
 } from '../components';
 import resume from '../../data/profile';
 import '../main.css';
+
+// TODO
+// main page
+// books i've read
+// blog
+// resume
 
 const Home = () => (
   <main className="antialiased text-neutral-900 bg-neutral-100 min-h-screen sm:p-5">
