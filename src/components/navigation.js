@@ -14,8 +14,15 @@ const Navigation = () => (
       <li>
         <a href="/resume">Resume</a>
       </li>
-      <li>Books I've liked</li>
-      <li>Blog</li>
+      <li>
+        <a href="/books">Books I've liked</a>
+      </li>
+      <li>
+        <a href="/blog">Blog</a>
+      </li>
+      <li>
+        <a href="/evolution">Evolution as a Programmer</a>
+      </li>
     </ul>
   </div>
 )

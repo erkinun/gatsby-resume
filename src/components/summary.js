@@ -6,7 +6,6 @@ const Summary = ({ data }) => (
     <p className="text-center tracking-wide leading-relaxed lg:text-left lg:mx-8 lg:text-lg">
       {data}
     </p>
-    <Evolution />
   </section>
 )
 
