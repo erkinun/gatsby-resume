@@ -60,4 +60,15 @@
   display: flex;
 }
 
+.navigation {
+  padding: 20px 0;
+}
+
+.navbar li {
+  color: #38b2ac;
+  font-size: 1.25rem;
+  padding-top: 5px;
+  text-align: center;
+}
+
 @tailwind utilities;
