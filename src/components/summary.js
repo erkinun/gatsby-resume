@@ -1,5 +1,4 @@
 import React from 'react'
-import Evolution from './evolution'
 
 const Summary = ({ data }) => (
   <section className="py-5 border-b border-neutral-300 lg:flex items-center">

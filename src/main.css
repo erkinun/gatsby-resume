@@ -62,6 +62,7 @@
 
 .navigation {
   padding: 20px 0;
+  width: 200px;
 }
 
 .navbar li {
@@ -69,6 +70,10 @@
   font-size: 1.25rem;
   padding-top: 5px;
   text-align: center;
+}
+
+.page-content {
+  display: flex;
 }
 
 @tailwind utilities;
