@@ -3,10 +3,12 @@ import { Header, Footer, Navigation, SEO } from '../components'
 import resume from '../../data/profile'
 import '../main.css'
 
-// TODO check out what tailwind is
-// TODO try to bring in sass
 // TODO netfly start?
+// TODO exclude playground from the final build
+// TODO check out what tailwind is
+// TODO try to bring in sass/emotion
 // TODO fix the navigation width thing
+// TODO use emotion or other for styling?
 
 const Page = ({ render }) => (
   <main className="antialiased text-neutral-900 bg-neutral-100 min-h-screen sm:p-5">
