@@ -1,6 +1,6 @@
-import React from 'react';
-import HeartIcon from '../assets/heart.svg';
-import SocialIcon from './social_icon';
+import React from 'react'
+import HeartIcon from '../assets/heart.svg'
+import SocialIcon from './social_icon'
 
 const Footer = ({ social }) => (
   <footer className="py-6 mx-auto items-center justify-between md:flex">
@@ -17,14 +17,14 @@ const Footer = ({ social }) => (
           style={{ color: '#de3618' }}
         />
       </span>
-      <span className="inline-block mr-1">by</span>
+      <span className="inline-block mr-1">with</span>
       <a
         className="text-primary-500 hover:text-primary-700 font-bold"
         href="https://erkinunlu.com"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Erkin Ünlü
+        GatsbyJS
       </a>
     </div>
     {social && (
@@ -44,6 +44,6 @@ const Footer = ({ social }) => (
       </div>
     )}
   </footer>
-);
+)
 
-export default Footer;
+export default Footer
