@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: erkinunlu/homepage #TODO replace this with your own repo
+  repo: erkinun/gatsby-resume
 
 media_folder: static/assets
 public_folder: assets
