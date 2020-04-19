@@ -20,7 +20,7 @@ const Footer = ({ social }) => (
       <span className="inline-block mr-1">with</span>
       <a
         className="text-primary-500 hover:text-primary-700 font-bold"
-        href="https://erkinunlu.com"
+        href="https://www.gatsbyjs.org"
         target="_blank"
         rel="noopener noreferrer"
       >

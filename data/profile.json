@@ -186,19 +186,39 @@
   "role": "Software Engineer",
   "projects": [
     {
-      "name": "Gatsby resume starter",
+      "name": "Resume Site",
       "company": "Open source",
-      "description": "Gatsby resume tailwind is a free starter template with  Netlify CMS implementation. It is easy to customize the design with thanks to tailwind theming capabilities. It uses git as a backend and can be deployed to any static hosting service like Netlify, firebase hosting or Github pages.",
-      "link": "https://github.com/barancezayirli/gatsby-resume-tailwind"
+      "description": "Used the starter template from https://github.com/barancezayirli/gatsby-starter-resume-cms which is a free starter template with  Netlify CMS implementation. It is easy to customize the design with thanks to tailwind theming capabilities. It uses git as a backend and can be deployed to any static hosting service like Netlify, firebase hosting or Github pages.",
+      "link": "https://change.me",
+      "tech": ["GatsbyJS", "ReactJS", "Javascript"]
+    },
+    {
+      "name": "Sporapp",
+      "company": "Out of business startup",
+      "description": "Social media startup for tracking workouts and planning routines and programs to reach one's goals for physical fitness.",
+      "tech": ["PHP", "JQuery", "Scala", "AWS"]
+    },
+    {
+      "name": "Wishjoin",
+      "company": "Out of business startup",
+      "description": "Social media look alike like Twitter to share a feed of wishes, goals and events with friends.",
+      "tech": ["PHP", "JQuery"]
+    },
+    {
+      "name": "Workout Logging",
+      "company": "Open Source",
+      "description": "Workout tracker application that is written with React and Typescript as a learning project. It utilises Firebase as a backend.",
+      "link": "https://workouts-logging.herokuapp.com",
+      "tech": ["ReactJS", "Typescript", "Firebase", "Heroku"]
+    },
+    {
+      "name": "Weather App",
+      "company": "Open Source",
+      "description": "A weather tracking application built for learning purposes. It uses Node.js and Javascript.",
+      "link": "https://erkinunlu-weather-app.herokuapp.com",
+      "tech": ["Javascript", "Node.js", "Express", "Heroku"]
     }
   ],
-  "todos": [
-    "sporapp",
-    "wishjoin",
-    "workout app",
-    "weather app for node learning",
-    "resume site",
-    "check github for more"
-  ],
+  "todos": ["check github for more"],
   "fullname": "Erkin Ünlü"
 }

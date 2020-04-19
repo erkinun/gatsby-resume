@@ -4,8 +4,10 @@ import resume from '../../data/profile'
 import '../main.css'
 
 // TODO netfly start?
+// immediate UI, navigation left oriented?, better pic, main content margin increase?
 // TODO pass down title as a props to seo
 // TODO check out what tailwind is
+// TODO buy domain name?
 // TODO try to bring in sass/emotion
 // TODO fix the navigation width thing
 // TODO use emotion or other for styling?
