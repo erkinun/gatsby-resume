@@ -4,7 +4,7 @@ const Navigation = () => (
   <div className="navigation">
     <img
       className="rounded-full mx-auto w-32 lg:w-full xl:w-4/5"
-      src="./profile.jpg"
+      src="/profile.jpg"
       alt="profile"
     />
     <ul className="navbar">
