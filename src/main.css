@@ -65,11 +65,16 @@
   width: 200px;
 }
 
+.navbar {
+  margin-left: 1em;
+  margin-top: 0.5em;
+}
+
 .navbar li {
   color: #38b2ac;
   font-size: 1.25rem;
   padding-top: 5px;
-  text-align: center;
+  text-align: left;
 }
 
 .page-content {
