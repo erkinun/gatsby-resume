@@ -65,6 +65,10 @@
   width: 200px;
 }
 
+.navigation .rounded {
+  border-radius: 25px;
+}
+
 .navbar {
   margin-left: 1em;
   margin-top: 0.5em;

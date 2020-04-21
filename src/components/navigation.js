@@ -1,10 +1,11 @@
 import React from 'react'
+import profile from './profile.png'
 
 const Navigation = () => (
   <div className="navigation">
     <img
-      className="rounded-full mx-auto w-32 lg:w-full xl:w-4/5"
-      src="/profile.jpg"
+      className="rounded mx-auto w-32 lg:w-full xl:w-4/5"
+      src={profile}
       alt="profile"
     />
     <ul className="navbar">
