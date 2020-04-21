@@ -1,5 +1,4 @@
 import React from 'react'
-import HeartIcon from '../assets/heart.svg'
 import SocialIcon from './social_icon'
 
 const Footer = ({ social }) => (
@@ -8,16 +7,6 @@ const Footer = ({ social }) => (
       <span className="inline-block mr-1">
         © {new Date().getFullYear()} | Developed with
       </span>
-      {
-        // TODO maybe remove the heart icon?
-      }
-      <span className="inline-block mr-1">
-        <HeartIcon
-          className="h-3 w-3 fill-current"
-          style={{ color: '#de3618' }}
-        />
-      </span>
-      <span className="inline-block mr-1">with</span>
       <a
         className="text-primary-500 hover:text-primary-700 font-bold"
         href="https://www.gatsbyjs.org"
