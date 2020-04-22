@@ -46,6 +46,7 @@ module.exports = {
     },
     'gatsby-plugin-netlify-cms',
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-plugin-purgecss`,
