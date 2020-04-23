@@ -1,5 +1,6 @@
 import React from 'react'
 import profile from './profile.png'
+import { Link } from 'gatsby'
 
 const Navigation = () => (
   <div className="navigation">
@@ -10,19 +11,19 @@ const Navigation = () => (
     />
     <ul className="navbar">
       <li>
-        <a href="/">Home</a>
+        <Link to="/">Home</Link>
       </li>
       <li>
-        <a href="/resume">Resume</a>
+        <Link to="/resume">Resume</Link>
       </li>
       <li>
-        <a href="/books">Books I've liked</a>
+        <Link to="/books">Books I've liked</Link>
       </li>
       <li>
-        <a href="/blog">Blog</a>
+        <Link to="/blog">Blog</Link>
       </li>
       <li>
-        <a href="/evolution">Evolution as a Programmer</a>
+        <Link to="/evolution">Evolution as a Programmer</Link>
       </li>
     </ul>
   </div>
