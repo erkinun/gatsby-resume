@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import {
   Header,
   Summary,
@@ -9,9 +9,9 @@ import {
   Education,
   Footer,
   SEO,
-} from '../components';
-import resume from '../../data/profile';
-import '../main.css';
+} from '../components'
+import resume from '../../data/profile'
+import '../main.css'
 
 // TODO
 // main page
@@ -28,7 +28,6 @@ const Home = () => (
         name={resume.fullname}
         role={resume.role}
       />
-      <Summary data={resume.summary} />
       <div className="border-b border-neutral-300 pb-2 my-5 lg:flex">
         <div className="lg:w-2/3 lg:pr-8">
           {resume.experience && <Experience data={resume.experience} />}
@@ -46,6 +45,6 @@ const Home = () => (
       <Footer social={resume.social} />
     </div>
   </main>
-);
+)
 
-export default Home;
+export default Home

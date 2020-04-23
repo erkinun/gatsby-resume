@@ -3,6 +3,7 @@ import { Header, Footer, Navigation, SEO } from '../components'
 import resume from '../../data/profile'
 import '../main.css'
 
+// TODO remove contact details from header?
 // TODO move avatar to main screen
 // TODO pass down title as a props to seo
 // TODO check out how tailwind works

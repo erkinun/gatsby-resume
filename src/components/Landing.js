@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import StyledLink from './styledLink'
+import StyledLink, { orange } from './styledLink'
 
 import resume from '../../data/profile.json'
 
@@ -18,8 +18,7 @@ const Welcome = styled.p`
   font-size: 2rem;
 `
 
-// TODO rename this to main content? home landing?
-const Summary = ({ data }) => (
+const Landing = ({ data }) => (
   <Section className="py-5 border-b border-neutral-300 lg:flex items-center">
     <Paragraph className="text-center tracking-wide leading-relaxed lg:text-left lg:text-lg">
       <Welcome>Hi, I'm {resume.fullname}.</Welcome>
@@ -44,4 +43,4 @@ const Summary = ({ data }) => (
   </Section>
 )
 
-export default Summary
+export default Landing

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, Summary, Footer, Navigation, SEO } from '../components'
+import { Header, Landing, Footer, Navigation, SEO } from '../components'
 import resume from '../../data/profile'
 import '../main.css'
 
@@ -14,7 +14,7 @@ const Home = () => (
       />
       <div className="main">
         <Navigation />
-        <Summary data={resume.summary} />
+        <Landing data={resume.summary} />
       </div>
 
       <Footer social={resume.social} />
