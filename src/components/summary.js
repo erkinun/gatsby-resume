@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Link } from 'gatsby'
+
+import StyledLink from './styledLink'
+
 import resume from '../../data/profile.json'
 
 const Paragraph = styled.p`
@@ -15,12 +17,6 @@ const Section = styled.section`
 const Welcome = styled.p`
   font-size: 2rem;
 `
-
-const orange = '#ed8936'
-const StyledLink = styled(Link)(props => ({
-  color: props.textColor,
-  fontWeight: 800,
-}))
 
 // TODO rename this to main content? home landing?
 const Summary = ({ data }) => (
