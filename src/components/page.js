@@ -3,13 +3,14 @@ import { Header, Footer, Navigation, SEO } from '../components'
 import resume from '../../data/profile'
 import '../main.css'
 
-// TODO move avatar to main screen
 // TODO pass down title as a props to seo
 // TODO check out how tailwind works
 // TODO create your own logo
 // TODO buy domain name?
-// TODO try to bring in sass/emotion
+// TODO do better css design and use rem and ems
+// TODO add courses? cms? like coursera functional, udemy react and execute typescript
 // TODO fix the navigation width thing
+// TODO books and netlify cms
 // TODO fix other parts? books? use netlify cms for that?
 
 const Page = ({ render }) => (
