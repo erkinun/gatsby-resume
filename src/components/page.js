@@ -1,9 +1,9 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { Header, Footer, Navigation, SEO } from '../components'
 import resume from '../../data/profile'
 import '../main.css'
 
-// TODO pass down title as a props to seo
 // TODO check out how tailwind works
 // TODO create your own logo
 // TODO buy domain name?
@@ -13,9 +13,9 @@ import '../main.css'
 // TODO books and netlify cms
 // TODO fix other parts? books? use netlify cms for that?
 
-const Page = ({ render }) => (
+const Page = ({ render, title }) => (
   <main className="antialiased text-neutral-900 bg-neutral-100 min-h-screen sm:p-5">
-    <SEO title="Resume" />
+    <SEO title={title} />
     <div className="container mx-auto shadow bg-white py-5 px-10">
       <Header name={resume.fullname} role={resume.role} />
       <div className="page-content main">
@@ -28,5 +28,13 @@ const Page = ({ render }) => (
     </div>
   </main>
 )
+
+Page.defaultProps = {
+  title: 'Resume',
+}
+
+Page.propTypes = {
+  title: PropTypes.string.isRequired,
+}
 
 export default Page
