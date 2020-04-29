@@ -1,13 +1,13 @@
-import React from 'react';
-import Contact from './contact';
+import React from 'react'
+import Contact from './contact'
 
 const Header = ({ name, role, contacts }) => (
   <header className="border-b border-neutral-300 pb-2 md:flex items-center justify-between">
     <div>
-      <h1 className="text-primary-500 text-4xl md:text-5xl font-bold tracking-wide leading-tight">
+      <h1 className="text-white text-4xl md:text-5xl font-bold tracking-wide leading-tight">
         {name}
       </h1>
-      <h2 className="font-light text-lg md:text-2xl text-primary-900 leading-relaxed tracking-widest">
+      <h2 className="font-light text-lg md:text-2xl text-white leading-relaxed tracking-widest">
         {role}
       </h2>
     </div>
@@ -18,6 +18,6 @@ const Header = ({ name, role, contacts }) => (
         ))}
     </div>
   </header>
-);
+)
 
-export default Header;
+export default Header

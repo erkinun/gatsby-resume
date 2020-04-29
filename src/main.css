@@ -75,7 +75,7 @@
 }
 
 .navbar li {
-  color: #38b2ac;
+  @apply text-white;
   font-size: 1.25rem;
   padding-top: 5px;
   text-align: left;

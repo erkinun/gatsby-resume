@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import StyledLink, { orange } from './styledLink'
+import StyledLink, { blue } from './styledLink'
 import profile from './profile.png'
 
 import resume from '../../data/profile.json'
@@ -32,22 +32,22 @@ const Landing = ({ data }) => (
       src={profile}
       alt="profile"
     />
-    <Paragraph className="text-center tracking-wide leading-relaxed lg:text-left lg:text-lg">
+    <Paragraph className="text-center tracking-wide leading-relaxed lg:text-left lg:text-lg text-white">
       <Welcome>Hi, I'm {resume.fullname}.</Welcome>
       {data} I{' '}
-      <StyledLink textColor={orange} to="/books">
+      <StyledLink textColor={blue} to="/books">
         read
       </StyledLink>{' '}
       a lot,{' '}
-      <StyledLink textColor={orange} to="/blog">
+      <StyledLink textColor={blue} to="/blog">
         write
       </StyledLink>{' '}
       a bit, try to find the best format for an online{' '}
-      <StyledLink textColor={orange} to="/resume">
+      <StyledLink textColor={blue} to="/resume">
         CV
       </StyledLink>{' '}
       and{' '}
-      <StyledLink textColor={orange} to="/evolution">
+      <StyledLink textColor={blue} to="/evolution">
         reflect
       </StyledLink>{' '}
       ony my journey.

@@ -4,7 +4,7 @@ import { Header, Footer, Navigation, SEO } from '../components'
 import resume from '../../data/profile'
 import '../main.css'
 
-// TODO check out how tailwind works
+// TODO check out how tailwind works - why it doesn't work
 // TODO create your own logo
 // TODO buy domain name?
 // TODO do better css design and use rem and ems
@@ -12,6 +12,7 @@ import '../main.css'
 // TODO fix the navigation width thing
 // TODO books and netlify cms
 // TODO fix other parts? books? use netlify cms for that?
+// TODO evolution design and impl
 
 const Page = ({ render, title }) => (
   <main className="antialiased text-neutral-900 bg-neutral-100 min-h-screen sm:p-5">
