@@ -26,7 +26,7 @@ const StyledImg = styled.img`
 `
 
 const Landing = ({ data }) => (
-  <Section className="py-5 border-b border-neutral-300 lg:flex items-center">
+  <Section className="py-5 border-b border-neutral-800 lg:flex items-center">
     <StyledImg
       className="rounded mx-auto w-32 lg:w-full xl:w-4/5"
       src={profile}

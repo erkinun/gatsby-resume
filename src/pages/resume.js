@@ -12,27 +12,21 @@ import {
 import resume from '../../data/profile'
 import '../main.css'
 
-// TODO
-// main page
-// books i've read
-// blog
-// resume
-
 const Home = () => (
-  <main className="antialiased text-neutral-900 bg-neutral-100 min-h-screen sm:p-5">
+  <main className="antialiased text-white bg-blue-800 min-h-screen sm:p-5">
     <SEO title="Resume" />
-    <div className="container mx-auto shadow bg-white py-5 px-10">
+    <div className="container mx-auto shadow bg-blue-900 py-5 px-10">
       <Header
         contacts={resume.contact}
         name={resume.fullname}
         role={resume.role}
       />
-      <div className="border-b border-neutral-300 pb-2 my-5 lg:flex">
+      <div className="border-b border-neutral-800 pb-2 my-5 lg:flex">
         <div className="lg:w-2/3 lg:pr-8">
           {resume.experience && <Experience data={resume.experience} />}
           {resume.projects && <Projects data={resume.projects} />}
         </div>
-        <div className="lg:w-1/3 lg:pl-8 lg:border-l lg:border-neutral-300 ">
+        <div className="lg:w-1/3 lg:pl-8 lg:border-l lg:border-neutral-800 ">
           {resume.skills && <Skills data={resume.skills} />}
           {resume.education && <Education data={resume.education} />}
           {resume.sidebar &&

@@ -5,7 +5,7 @@ const Projects = ({ data }) => (
     <h1 className="section-header">Projects</h1>
     {data.map(item => (
       <article className="my-5" key={item.name}>
-        <h2 className="item-header">{item.name}</h2>
+        <h2 className="item-header text-white">{item.name}</h2>
         <h3 className="item-sub">{item.company}</h3>
         <p className="py-4">{item.description}</p>
         {item.tech && <p>Technology: {item.tech.join(', ')}</p>}

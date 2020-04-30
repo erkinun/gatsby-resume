@@ -4,7 +4,7 @@ import resume from '../../data/profile'
 import '../main.css'
 
 const Home = () => (
-  <main className="antialiased text-neutral-900 bg-blue-900 min-h-screen sm:p-5">
+  <main className="antialiased text-neutral-900 bg-blue-800 min-h-screen sm:p-5">
     <SEO title="Home" />
     <div className="container mx-auto shadow bg-blue-900 py-5 px-10">
       <Header name={resume.fullname} role={resume.role} />
