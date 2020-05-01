@@ -4,8 +4,6 @@ import { Header, Footer, Navigation, SEO } from '../components'
 import resume from '../../data/profile'
 import '../main.css'
 
-// TODO check out how tailwind works - why it doesn't work
-// TODO create your own logo
 // TODO buy domain name?
 // TODO remove bar charts from skills make them pills instead
 // TODO do better css design and use rem and ems
