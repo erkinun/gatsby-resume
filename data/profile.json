@@ -6,50 +6,42 @@
   },
   "skills": [
     {
-      "title": "General",
-      "type": "percent",
+      "title": "Languages",
+      "type": "tag",
       "subskills": [
         {
-          "name": "Architecture",
-          "percent": 89
+          "name": "Javascript"
         },
         {
-          "name": "Mobile/Web App Development",
-          "percent": 95
+          "name": "Clojure"
         },
         {
-          "name": "Dev Ops",
-          "percent": 81
+          "name": "Scala"
         },
         {
-          "name": "Backend Development",
-          "percent": 93
+          "name": "Java"
         },
-        {
-          "name": "UX",
-          "percent": 80
-        }
+        { "name": "Typescript" },
+        { "name": "Python" }
       ]
     },
     {
-      "title": "Languages",
-      "type": "percent",
+      "title": "General",
+      "type": "tag",
       "subskills": [
+        { "name": "Docker" },
+        { "name": "Kubernetes" },
         {
-          "name": "Javascript",
-          "percent": 96
+          "name": "Mobile/Web App Development"
         },
         {
-          "name": "Java",
-          "percent": 82
+          "name": "Dev Ops"
         },
         {
-          "name": "Scala",
-          "percent": 82
+          "name": "Backend Development"
         },
         {
-          "name": "Clojure",
-          "percent": 82
+          "name": "Full Stack Development"
         }
       ]
     },
@@ -58,26 +50,17 @@
       "type": "tag",
       "subskills": [
         {
-          "name": "React"
+          "name": "ReactJS"
         },
         {
-          "name": "Node"
+          "name": "Express"
         },
         {
           "name": "Gatsby"
-        }
-      ]
-    },
-    {
-      "title": "Software",
-      "type": "tag",
-      "subskills": [
-        {
-          "name": "Docker"
         },
-        {
-          "name": "Jira"
-        }
+        { "name": "Ring" },
+        { "name": "Akka" },
+        { "name": "Apache Spark" }
       ]
     },
     {
@@ -89,7 +72,8 @@
         },
         {
           "name": "Firebase"
-        }
+        },
+        { "name": "ElasticSearch" }
       ]
     }
   ],

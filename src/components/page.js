@@ -4,7 +4,6 @@ import { Header, Footer, Navigation, SEO } from '../components'
 import resume from '../../data/profile'
 import '../main.css'
 
-// TODO remove bar charts from skills make them pills instead
 // TODO do better css design and use rem and ems
 // . TODO make it mobile friendy for example
 // TODO add courses? cms? like coursera functional, udemy react and execute typescript
