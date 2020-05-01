@@ -4,14 +4,14 @@ import { Header, Footer, Navigation, SEO } from '../components'
 import resume from '../../data/profile'
 import '../main.css'
 
-// TODO buy domain name?
 // TODO remove bar charts from skills make them pills instead
 // TODO do better css design and use rem and ems
+// . TODO make it mobile friendy for example
 // TODO add courses? cms? like coursera functional, udemy react and execute typescript
 // TODO fix the navigation width thing
 // TODO books and netlify cms
 // TODO fix other parts? books? use netlify cms for that?
-// TODO evolution design and impl
+// TODO evolution (about me) design and impl
 // TODO pdf download for resume?
 
 const Page = ({ render, title }) => (
