@@ -56,10 +56,6 @@
   width: 300px;
 }
 
-.main {
-  display: flex;
-}
-
 .navigation {
   padding: 20px 0;
   width: 200px;
@@ -79,10 +75,6 @@
   font-size: 1.25rem;
   padding-top: 5px;
   text-align: left;
-}
-
-.page-content {
-  display: flex;
 }
 
 @tailwind utilities;

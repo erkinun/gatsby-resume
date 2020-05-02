@@ -5,7 +5,10 @@ import resume from '../../data/profile'
 import '../main.css'
 
 // TODO do better css design and use rem and ems
-// . TODO make it mobile friendy for example
+// . TODO replace navigation with a menu burger pill in smaller screens
+// . TODO put footer to glued to the bottom of the page
+// TODO under development page?
+// TODO make sure index also uses page?
 // TODO add courses? cms? like coursera functional, udemy react and execute typescript
 // TODO fix the navigation width thing
 // TODO books and netlify cms
@@ -18,7 +21,7 @@ const Page = ({ render, title }) => (
     <SEO title={title} />
     <div className="container mx-auto shadow bg-blue-900 py-5 px-10">
       <Header name={resume.fullname} role={resume.role} />
-      <div className="page-content main text-white">
+      <div className="md:flex main text-white">
         <Navigation />
         <section className="py-5 border-b border-neutral-800 lg:flex items-center">
           {render()}

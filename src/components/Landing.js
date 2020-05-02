@@ -7,14 +7,8 @@ import profile from './profile.png'
 import resume from '../../data/profile.json'
 
 const Paragraph = styled.p`
-  width: 600px;
   margin-left: auto;
   margin-right: auto;
-`
-
-const Section = styled.section`
-  width: 1000px;
-  height: 500px;
 `
 const Welcome = styled.p`
   font-size: 2rem;
@@ -26,7 +20,7 @@ const StyledImg = styled.img`
 `
 
 const Landing = ({ data }) => (
-  <Section className="py-5 border-b border-neutral-800 lg:flex items-center">
+  <div className="h-auto w-auto py-10 border-b border-neutral-800 lg:flex items-center">
     <StyledImg
       className="rounded mx-auto w-32 lg:w-full xl:w-4/5"
       src={profile}
@@ -52,7 +46,7 @@ const Landing = ({ data }) => (
       </StyledLink>{' '}
       ony my journey.
     </Paragraph>
-  </Section>
+  </div>
 )
 
 export default Landing

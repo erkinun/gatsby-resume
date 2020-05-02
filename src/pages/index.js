@@ -8,7 +8,7 @@ const Home = () => (
     <SEO title="Home" />
     <div className="container mx-auto shadow bg-blue-900 py-5 px-10">
       <Header name={resume.fullname} role={resume.role} />
-      <div className="main">
+      <div className="main md:flex">
         <Navigation />
         <Landing data={resume.summary} />
       </div>
