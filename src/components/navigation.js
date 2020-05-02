@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 const Navigation = () => (
-  <div className="navigation">
+  <div className="navigation flex-shrink-0">
     <ul className="navbar">
       <li>
         <Link to="/">Home</Link>

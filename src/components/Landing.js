@@ -20,13 +20,13 @@ const StyledImg = styled.img`
 `
 
 const Landing = ({ data }) => (
-  <div className="h-auto w-auto py-10 border-b border-neutral-800 lg:flex items-center">
+  <div className="h-auto w-auto py-10 px-10 border-b border-neutral-800 lg:flex items-center">
     <StyledImg
-      className="rounded mx-auto w-32 lg:w-full xl:w-4/5"
+      className="rounded flex-shrink-0 mx-auto w-32 lg:w-full xl:w-4/5"
       src={profile}
       alt="profile"
     />
-    <Paragraph className="text-center tracking-wide leading-relaxed lg:text-left lg:text-lg text-white">
+    <Paragraph className="text-center px-10 tracking-wide leading-relaxed lg:text-left lg:text-lg text-white">
       <Welcome>Hi, I'm {resume.fullname}.</Welcome>
       {data} I{' '}
       <StyledLink textColor={blue} to="/books">
