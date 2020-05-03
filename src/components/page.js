@@ -7,6 +7,7 @@ import '../main.css'
 // TODO do better css design and use rem and ems
 // . TODO replace navigation with a menu burger pill in smaller screens
 // . TODO put footer to glued to the bottom of the page
+// . TODO fix padding in landing in mobile screens
 // TODO under development page?
 // TODO make sure index also uses page?
 // TODO add courses? cms? like coursera functional, udemy react and execute typescript
