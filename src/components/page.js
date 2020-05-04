@@ -5,9 +5,9 @@ import resume from '../../data/profile'
 import '../main.css'
 
 // TODO do better css design and use rem and ems
-// . TODO replace navigation with a menu burger pill in smaller screens
-// . TODO put footer to glued to the bottom of the page
+// . TODO fix the sticky footer in index!
 // . TODO fix padding in landing in mobile screens
+// . TODO refactor some of the classes into utilities?
 // TODO under development page?
 // TODO make sure index also uses page?
 // TODO add courses? cms? like coursera functional, udemy react and execute typescript
@@ -20,11 +20,11 @@ import '../main.css'
 const Page = ({ render, title }) => (
   <main className="antialiased text-neutral-900 bg-blue-800 min-h-screen sm:p-5">
     <SEO title={title} />
-    <div className="container mx-auto shadow bg-blue-900 py-5 px-10">
+    <div className="container flex flex-col min-h-screen mx-auto shadow bg-blue-900 py-5 px-10">
       <Header name={resume.fullname} role={resume.role} />
-      <div className="md:flex main text-white">
+      <div className="md:flex-row flex-col md:flex flex-1 main text-white">
         <Navigation />
-        <section className="py-5 border-b border-neutral-800 lg:flex items-center">
+        <section className="flex-1 py-5 border-b border-neutral-800 lg:flex items-center">
           {render()}
         </section>
       </div>
