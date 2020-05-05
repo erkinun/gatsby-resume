@@ -5,11 +5,9 @@ import resume from '../../data/profile'
 import '../main.css'
 
 // TODO do better css design and use rem and ems
-// . TODO fix the sticky footer in index!
-// . TODO fix padding in landing in mobile screens
+// . TODO fix padding in navigation and etc in mobile screens
 // . TODO refactor some of the classes into utilities?
 // TODO under development page?
-// TODO make sure index also uses page?
 // TODO add courses? cms? like coursera functional, udemy react and execute typescript
 // TODO fix the navigation width thing
 // TODO books and netlify cms

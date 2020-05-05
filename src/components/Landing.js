@@ -20,7 +20,7 @@ const StyledImg = styled.img`
 `
 
 const Landing = ({ data }) => (
-  <div className="h-auto w-auto py-10 px-10 border-b border-neutral-800 lg:flex items-center">
+  <div className="h-auto w-auto py-10 px-10 lg:flex items-center">
     <StyledImg
       className="rounded flex-shrink-0 mx-auto w-32 lg:w-full xl:w-4/5"
       src={profile}
