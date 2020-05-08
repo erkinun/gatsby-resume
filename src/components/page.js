@@ -6,8 +6,7 @@ import '../main.css'
 
 // TODO do better css design and use rem and ems
 // . TODO fix padding in navigation and etc in mobile screens
-// . TODO refactor some of the classes into utilities?
-// TODO under development page?
+// TODO for blogs, first data in gatsby then cms support
 // TODO add courses? cms? like coursera functional, udemy react and execute typescript
 // TODO fix the navigation width thing
 // TODO books and netlify cms

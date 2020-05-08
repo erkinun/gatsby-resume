@@ -9,7 +9,7 @@ module.exports = {
     title: `Erkin Ünlü | Functional Programmer`,
     author: `Erkin Ünlü`,
     description: `Software Engineer specialised in functional programming`,
-    siteUrl: `https://erkinunlu.com/`,
+    siteUrl: `https://erkinunlu.net/`,
     social: {
       twitter: `erkin_Unlu1`,
     },
