@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 // TODO make this read from tailwind
 export const blue = '#4299E1'
 const StyledLink = styled(Link)(props => ({
-  color: props.textColor,
+  color: props.textColor ?? blue,
   fontWeight: 800,
 }))
 
