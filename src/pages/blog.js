@@ -4,13 +4,13 @@ import { Page } from '../components'
 import { PostLink } from '../components'
 
 // TODO 2 - looks like markdown is not that supported, make sure it's there?
-// TODO 3 - use the same styling and page.js on each blog post
 // TODO 4 - pass page some styling options to justify contents to top center or bottom?
 // TODO 5 - more styling to blog list
 // TODO make sure the blogs are pathed behind /blog/hede
 // TODO add tags to blogs, then a search mechanism using those blogs
 // TODO commenting mechanism?
 // TODO find a way to export blogs from medium, or manually export them to netfly and use
+// TODO previous/next post might be a nice thing
 
 const Blog = ({
   data: {
