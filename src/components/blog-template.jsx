@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import styled from 'styled-components'
 
 import Page from '../components/page'
+import { blue } from '../components/styledLink'
 
 export default function BlogTemplate({ data }) {
   const { markdownRemark } = data
@@ -15,21 +16,40 @@ export default function BlogTemplate({ data }) {
   const Date = styled.h2`
     margin-bottom: 1rem;
   `
+
+  const Blog = styled.div`
+    max-width: 800px;
+    margin: 0 auto;
+  `
+
+  const BlogBody = styled.div`
+    line-height: 2rem;
+    font-size: 1.25rem;
+
+    p {
+      margin-bottom: 1.5rem;
+    }
+
+    a {
+      color: ${blue};
+    }
+  `
+
   return (
     <Page
       render={() => (
-        <div className="blog-post-container">
+        <Blog className="blog-post-container">
           <div className="blog-post">
             <Title className="text-primary-500">{frontmatter.title}</Title>
             <Date className="text-neutral-500">
               Posted on {frontmatter.date}
             </Date>
-            <div
+            <BlogBody
               className="blog-post-content"
               dangerouslySetInnerHTML={{ __html: html }}
             />
           </div>
-        </div>
+        </Blog>
       )}
     />
   )
