@@ -14,7 +14,7 @@ const DateDiv = styled.div`
 const PostLink = ({ post }) => (
   <StyledDiv>
     <StyledLink
-      to={post.frontmatter.path}
+      to={`/blog/${post.frontmatter.path}`}
       fontSize="2rem"
       marginBottom="1rem"
       display="block"
@@ -22,7 +22,8 @@ const PostLink = ({ post }) => (
       {post.frontmatter.title}
     </StyledLink>
     <div>
-      {post.excerpt} <StyledLink to={post.frontmatter.path}>>></StyledLink>
+      {post.excerpt}{' '}
+      <StyledLink to={`/blog/${post.frontmatter.path}`}>>></StyledLink>
     </div>
     <DateDiv className="text-neutral-500">{post.frontmatter.date}</DateDiv>
   </StyledDiv>
