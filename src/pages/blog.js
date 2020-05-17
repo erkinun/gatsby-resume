@@ -3,8 +3,7 @@ import React from 'react'
 import { Page } from '../components'
 import { PostLink } from '../components'
 
-// TODO 2 - looks like markdown is not that supported, make sure it's there?
-// TODO 4 - pass page some styling options to justify contents to top center or bottom?
+// TODO 4 - pass page component some styling options to justify contents to top center or bottom?
 // TODO 5 - more styling to blog list
 // TODO make sure the blogs are pathed behind /blog/hede
 // TODO add tags to blogs, then a search mechanism using those blogs
@@ -21,7 +20,20 @@ const Blog = ({
   const Posts = edges
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
-  return <Page title="Blog" render={() => <div>{Posts}</div>} />
+  return (
+    <Page
+      title="Blog"
+      render={() => (
+        <div>
+          {Posts.concat(Posts)
+            .concat(Posts)
+            .concat(Posts)
+            .concat(Posts)
+            .concat(Posts)}
+        </div>
+      )}
+    />
+  )
 }
 
 export default Blog
