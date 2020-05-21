@@ -9,7 +9,6 @@ import '../main.css'
 // TODO for blogs, first data in gatsby then cms support
 // TODO add courses? cms? like coursera functional, udemy react and execute typescript
 // TODO fix the navigation width thing
-// TODO books and netlify cms
 // TODO fix other parts? books? use netlify cms for that?
 // TODO evolution (about me) design and impl
 // TODO pdf download for resume?

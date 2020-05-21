@@ -32,10 +32,18 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `blogs`,
+        path: `${__dirname}/blog/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         name: `data`,
         path: `${__dirname}/data/`,
       },
     },
+    `gatsby-transformer-remark`,
     {
       resolve: 'gatsby-plugin-react-svg',
       options: {
