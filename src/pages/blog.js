@@ -3,10 +3,9 @@ import React from 'react'
 import { Page } from '../components'
 import { PostLink } from '../components'
 
-// TODO how to extract turkish blogs from medium?
 // TODO actually write one blog : ) and then publish the branch
 // TODO 4 - pass page component some styling options to justify contents to top center or bottom?
-// TODO add tags to blogs, then a search mechanism using those blogs
+// TODO add tags to blogs, then a search mechanism using those blogs, especially languages tag
 // TODO commenting mechanism?
 // TODO previous/next post might be a nice thing
 
