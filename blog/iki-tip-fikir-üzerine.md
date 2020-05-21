@@ -1,6 +1,6 @@
 ---
 path: two_types_of_ideas
-date: 2020-05-21T20:07:36.056Z
+date: 2020-01-21T21:07:36.056Z
 title: İki Tip Fikir Üzerine
 ---
 Herkese merhaba,
