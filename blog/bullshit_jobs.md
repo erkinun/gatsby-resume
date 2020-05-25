@@ -3,7 +3,7 @@ path: bullshit_jobs
 date: 2019-09-23T20:23:01.429Z
 title: Saçmalık İşler!
 ---
-[![Erkin Ünlü](https://miro.medium.com/fit/c/96/96/0*QF4KlIqWfOofBeO_.jpg)](https://medium.com/@erkin_unlu?source=post_page-----5fc0b91b4580----------------------)[Erkin Ünlü](https://medium.com/@erkin_unlu?source=post_page-----5fc0b91b4580----------------------)Follow[Sep 23, 2019](https://medium.com/@erkin_unlu/saçmalık-i̇şler-5fc0b91b4580?source=post_page-----5fc0b91b4580----------------------) · 8 min read
+
 
 Genellikle okuduğum kitaplarla ilgili yorumlarımı Goodreads’te paylaşır geçerim ama geçenlerde okuduğum Bullshit Jobs: A Theory kitabıyla ilgili buraya da bir şeyler yazmak istedim. Goodreads’teki incelememe buradan erişebilirsiniz: [https://www.goodreads.com/review/show/2896546853](https://www.goodreads.com/review/show/2896546853). Kitap, benim yıllardır düşündüğüm ama tam konumlandıramadığım bir noktayı oldukça kapsamlı ve eğlenceli şekilde açıklamış.
 
