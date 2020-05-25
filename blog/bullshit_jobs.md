@@ -20,7 +20,7 @@ Graeber kitabına, ünlü ekonomist Keynes’in 20. yüzyılın başlarında bul
 
 [Cevap evet üretkenliğimiz arttı](https://ourworldindata.org/economic-growth#productivity-is-the-driver-of-economic-growth), bakınız aşağıdaki grafik.
 
-<img class="s t u hb ai" src="https://miro.medium.com/max/6800/1\*VQdKDnzEeD1k-g6p9BBA3w.png" width="3400" height="2400" srcSet="https://miro.medium.com/max/552/1\*VQdKDnzEeD1k-g6p9BBA3w.png 276w, https://miro.medium.com/max/1104/1\*VQdKDnzEeD1k-g6p9BBA3w.png 552w, https://miro.medium.com/max/1280/1\*VQdKDnzEeD1k-g6p9BBA3w.png 640w, https://miro.medium.com/max/1400/1\*VQdKDnzEeD1k-g6p9BBA3w.png 700w" sizes="700px" role="presentation"/>
+![Uretkenlik](../images/productivity.png)
 
 Fabrikalarımız modernleşti, süreçler iyileşti, hatta fabrikaları daha fakir ülkelere gönderdik, üretmemize bile gerek kalmadı, üstüne de fakir ülkeler bile gelişti (hatta bugünlerde [fakirlerin et yemeye başlamalarının küresel ısınmayı tetiklediğine dair görüşler mevcut](https://twitter.com/theeconomist/status/1163669694836092930))(bakınız ironi). Peki bu durumda gelişmiş toplumlarda insanlar neden hala en az haftada 5 gün, günde 8 saat çalışmak zorunda ve bu insanlar hangi işlerde çalışıyor?
 
