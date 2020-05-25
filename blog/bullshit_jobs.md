@@ -7,7 +7,7 @@ title: Saçmalık İşler!
 
 Genellikle okuduğum kitaplarla ilgili yorumlarımı Goodreads’te paylaşır geçerim ama geçenlerde okuduğum Bullshit Jobs: A Theory kitabıyla ilgili buraya da bir şeyler yazmak istedim. Goodreads’teki incelememe buradan erişebilirsiniz: [https://www.goodreads.com/review/show/2896546853](https://www.goodreads.com/review/show/2896546853). Kitap, benim yıllardır düşündüğüm ama tam konumlandıramadığım bir noktayı oldukça kapsamlı ve eğlenceli şekilde açıklamış.
 
-<img class="s t u hb ai" src="https://miro.medium.com/max/2758/1\*qkT6bWhwcgQ9DJgcRYI\_3w.jpeg" width="1379" height="968" srcSet="https://miro.medium.com/max/552/1\*qkT6bWhwcgQ9DJgcRYI\_3w.jpeg 276w, https://miro.medium.com/max/1104/1\*qkT6bWhwcgQ9DJgcRYI\_3w.jpeg 552w, https://miro.medium.com/max/1280/1\*qkT6bWhwcgQ9DJgcRYI\_3w.jpeg 640w, https://miro.medium.com/max/1400/1\*qkT6bWhwcgQ9DJgcRYI\_3w.jpeg 700w" sizes="700px" role="presentation"/>
+<img class="s t u hb ai" src="https://miro.medium.com/max/1400/1*qkT6bWhwcgQ9DJgcRYI_3w.jpeg" width="1379" height="968" srcSet="https://miro.medium.com/max/552/1\*qkT6bWhwcgQ9DJgcRYI\_3w.jpeg 276w, https://miro.medium.com/max/1104/1\*qkT6bWhwcgQ9DJgcRYI\_3w.jpeg 552w, https://miro.medium.com/max/1280/1\*qkT6bWhwcgQ9DJgcRYI\_3w.jpeg 640w, https://miro.medium.com/max/1400/1\*qkT6bWhwcgQ9DJgcRYI\_3w.jpeg 700w" sizes="700px" role="presentation"/>
 
 Bazı meslekler ve topluma fayda katsayıları
 
