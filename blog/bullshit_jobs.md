@@ -29,7 +29,7 @@ Fabrikalarımız modernleşti, süreçler iyileşti, hatta fabrikaları daha fak
 
 Bu kadar çok çalışmamızın bir diğer sebebi ise, 20.yy başından itibaren [müdüriyet kavramının](https://en.wikipedia.org/wiki/Scientific_management) (yani aslında üretmeyen ve üretenleri idare etmeye çalışan bir sınıf sisteminin) doğması ve seksenlerden itibaren neoliberalizm ve beraberinde finans feodalizminin tekrar dünyada başat ekonomik aktivite haline gelmesi olarak açıklanabilir. İkinci Dünya Savaşı’ndan sonra dengelenen dünya ekonomisi (gene **[Keynes](https://en.wikipedia.org/wiki/Keynesian_economics)** sayesinde), seksenli yıllardan sonra neoliberalizme terk edildi, neoliberalizm çoğu gelişmiş ülkenin orta ve alt sınıfları için acıklı sonuçlar ortaya koydu ve bunun yanında inanılmaz bir para ve ürün artışı sağladı (para zengine, ürünler de bizlere). Sosyal devletlerin sağladığı bir çok avantaj (ücretsiz sağlık ve eğitim, ucuz konut, düşük işsizlik ve hatta iş garantisi, sendika hakkı, emeklilik ve diğerleri) insanların elinden alındı. Bu dezavantajlı haksız koşullar, kazandığımız paranın asla (geleceğe) yetmemesi gibi bir paradoks durum oluşturdu.
 
-![](assets/boomer.png "gençler hiç çalışmıyor")
+![](../assets/boomer.png "gençler hiç çalışmıyor")
 
 
 
