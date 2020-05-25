@@ -31,8 +31,6 @@ Bu kadar çok çalışmamızın bir diğer sebebi ise, 20.yy başından itibaren
 
 ![](../assets/boomer.png "gençler hiç çalışmıyor")
 
-
-
 Dolayısıyla, sürekli şişen bir balonun(ekonominin) içinde bulunduğumuzdan biz de daha çok şişmek (çalışmak, üretmek ya da en azından üretiyormuş gibi yapmak) zorunda kaldık. Bahsettiğim finans feodalizmi (siz buna neoliberalizm de diyebilirsiniz) ortaçağ feodalizmine oldukça benzerdir. Bir şey üretmediği için üreticilerin ve çalışanların boğazına çöktüğü gibi, aynı ortaçağdaki gibi tamamen derebeyliğe özel saçmalık işler de üretir. Bunlara aşağıdaki saçmalık işler tiplerinde değineceğim.
 
 - - -
@@ -55,12 +53,11 @@ Peki o zaman ne yapmalı? Yazar, aslında çok daha radikal değişiklikler öne
 
 - - -
 
-<img class="s t u hb ai" src="https://miro.medium.com/max/3840/1\\*Rp\_8XoH3tsk2MZhtlpIIkw.jpeg" width="1920" height="1525" srcSet="https://miro.medium.com/max/552/1\\*Rp\_8XoH3tsk2MZhtlpIIkw.jpeg 276w, https://miro.medium.com/max/1104/1\\*Rp\_8XoH3tsk2MZhtlpIIkw.jpeg 552w, https://miro.medium.com/max/1280/1\\*Rp\_8XoH3tsk2MZhtlpIIkw.jpeg 640w, https://miro.medium.com/max/1400/1\*Rp\_8XoH3tsk2MZhtlpIIkw.jpeg 700w" sizes="700px" role="presentation"/>
+![](../assets/buckminster.jpeg "Buckminster nasıl bir isim ya?")
 
-Buckminster nasıl bir isim ya?
 
 Yazıyı ünlü mimar ve mucit Buckminster Fuller’ın bir sözü ile bitirelim:
 
 > “We should do away with the absolutely specious notion that everybody has to earn a living. It is a fact today that one in ten thousand of us can make a technological breakthrough capable of supporting all the rest. The youth of today are absolutely right in recognizing this nonsense of earning a living. We keep inventing jobs because of this false idea that everybody has to be employed at some kind of drudgery because, according to Malthusian Darwinian theory he must justify his right to exist. So we have inspectors of inspectors and people making instruments for inspectors to inspect inspectors. The true business of people should be to go back to school and think about whatever it was they were thinking about before somebody came along and told them they had to earn a living.”
 
-Sevgiler. ➜ medium-export
+Sevgiler.
