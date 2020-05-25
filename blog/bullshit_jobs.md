@@ -4,16 +4,15 @@ date: 2019-09-23T20:23:01.429Z
 title: Saçmalık İşler!
 ---
 
-
 Genellikle okuduğum kitaplarla ilgili yorumlarımı Goodreads’te paylaşır geçerim ama geçenlerde okuduğum Bullshit Jobs: A Theory kitabıyla ilgili buraya da bir şeyler yazmak istedim. Goodreads’teki incelememe buradan erişebilirsiniz: [https://www.goodreads.com/review/show/2896546853](https://www.goodreads.com/review/show/2896546853). Kitap, benim yıllardır düşündüğüm ama tam konumlandıramadığım bir noktayı oldukça kapsamlı ve eğlenceli şekilde açıklamış.
 
-<img class="s t u hb ai" src="https://miro.medium.com/max/1400/1*qkT6bWhwcgQ9DJgcRYI_3w.jpeg" width="1379" height="968" srcSet="https://miro.medium.com/max/552/1\*qkT6bWhwcgQ9DJgcRYI\_3w.jpeg 276w, https://miro.medium.com/max/1104/1\*qkT6bWhwcgQ9DJgcRYI\_3w.jpeg 552w, https://miro.medium.com/max/1280/1\*qkT6bWhwcgQ9DJgcRYI\_3w.jpeg 640w, https://miro.medium.com/max/1400/1\*qkT6bWhwcgQ9DJgcRYI\_3w.jpeg 700w" sizes="700px" role="presentation"/>
+![Sacmalik](../images/bullshit.jpeg)
 
 Bazı meslekler ve topluma fayda katsayıları
 
 Hangi düşünce? Hani bazen (genellikle kendi çalıştığınız) bir işin neden yapıldığını anlayamazsınız. Ya da o iş çok anlamsız gelir insana. Bu iş yapılmasa ne olur ki? Dünyada ne değişir? Kime ne faydası var? Yarından itibaren bu iş yapılmasa günlük yaşamda ne aksar? Gelecekte ne değişir? Dini bayramlarda bir hafta toplum olarak yapmadığımız işe neden devam ediyoruz ki? Benzer soruları sorarsınız kendinize. Depresif olduğunuzda hissettiklerinizi demiyorum, hani gerçekten bazen işinizi eğrisi doğrusuna tartarsınız ve bir anlam bulamazsınız ya, işte o düşünce.
 
-* * *
+---
 
 Saçmalık İşler (orjinal ismi Bullshit Jobs) kitabının yazarı David Graeber Occupy Wall Street’in organizatörlerinden birisi olan anarşist bir akademisyen, bu yüzden görüşlerini taraflı (ve hatta sırf anarşist olduğu için garip bile) bulabilirsiniz. Ama kitabı kesinlikle sıkıcı bulmayacağınızı ve yeni bir şeyler okuyacağınızı rahatlıkla söyleyebilirim.
 
@@ -25,7 +24,7 @@ Graeber kitabına, ünlü ekonomist Keynes’in 20. yüzyılın başlarında bul
 
 Fabrikalarımız modernleşti, süreçler iyileşti, hatta fabrikaları daha fakir ülkelere gönderdik, üretmemize bile gerek kalmadı, üstüne de fakir ülkeler bile gelişti (hatta bugünlerde [fakirlerin et yemeye başlamalarının küresel ısınmayı tetiklediğine dair görüşler mevcut](https://twitter.com/theeconomist/status/1163669694836092930))(bakınız ironi). Peki bu durumda gelişmiş toplumlarda insanlar neden hala en az haftada 5 gün, günde 8 saat çalışmak zorunda ve bu insanlar hangi işlerde çalışıyor?
 
-* * *
+---
 
 İlk olarak neden hala bu kadar çok çalışmak zorunda olduğumuzu konuşalım. Malum ülkemizde ve seviyesine ulaşmaya çalıştığımız batı toplumlarında (sosyal devleti hala güçlü olanların toplumun genelini düşündüğü politikaları haricinde) çalışmak adeta kutsal bir olgu, ibadet olarak görenler bile var, bilirsiniz. Peki neden böyle? Bunun sebebi (ne yazık ki) küçümsenemeyecek derecede dinlerden ve özellikle Hristiyanlıktan gelen öğretilerde. Çalışmanın insanın hem cezası hem de ödülü olduğunu düşünen Hristiyan teologlar ne yazık ki, günümüz batı medeniyetinin ve onun etkisi altındaki dünyanın çalışma ideolojisini belirledi. Örneğin bazılarımız çalıştığında topluma katkıda bulunduğunu ve bunun bir çeşit ulviliği olduğunu düşünüyordur. İşte onu hep din adamları uydurdu ne yazık ki.
 
@@ -37,9 +36,9 @@ gençler hiç çalışmıyor
 
 Dolayısıyla, sürekli şişen bir balonun(ekonominin) içinde bulunduğumuzdan biz de daha çok şişmek (çalışmak, üretmek ya da en azından üretiyormuş gibi yapmak) zorunda kaldık. Bahsettiğim finans feodalizmi (siz buna neoliberalizm de diyebilirsiniz) ortaçağ feodalizmine oldukça benzerdir. Bir şey üretmediği için üreticilerin ve çalışanların boğazına çöktüğü gibi, aynı ortaçağdaki gibi tamamen derebeyliğe özel saçmalık işler de üretir. Bunlara aşağıdaki saçmalık işler tiplerinde değineceğim.
 
-* * *
+---
 
-Antropolog ve yazar David Graeber bu konulara kafa yormuş ve Strike! dergisine 2013 yılında bir yazı kaleme almış (yazının linki [https://www.strike.coop/bullshit-jobs/](https://www.strike.coop/bullshit-jobs/)). Bu yazı zamanla ciddi bir tepki uyandırıyor (hatta Londra metrosuna yazıdan parçalar konuluyor: [https://www.vice.com/en\_uk/article/yvq9qg/david-graeber-pointless-jobs-tube-poster-interview-912](https://www.vice.com/en_uk/article/yvq9qg/david-graeber-pointless-jobs-tube-poster-interview-912)) ve YouGov isimli ünlü anket firması bir sene sonra saçmalık işler üzerine bir anket yapıyor ve acayip sonuçlar ortaya çıkıyor. Mesela Britanya’da insanların yüzde 37'si çalıştıkları işler ile dünyaya bir katkılarının olmadığını düşünüyorlar (anketin linki [https://yougov.co.uk/topics/lifestyle/articles-reports/2015/08/12/british-jobs-meaningless](https://yougov.co.uk/topics/lifestyle/articles-reports/2015/08/12/british-jobs-meaningless) [)](https://yougov.co.uk/topics/lifestyle/articles-reports/2015/08/12/british-jobs-meaningless). Bu sonuçların üzerine Graeber kitap yazımı çalışmalarına başlıyor ve insanlarla bire bir yazışarak kendilerine çalıştıkları saçmalık işleri anlatmalarını istiyor. Gelen yüzlerce mektuptan sonra ise saçmalık işler için şöyle bir tanım yapıyor: **Saçmalık iş, kişinin, çalıştığı işin tamamen anlamsız, gereksiz ve hatta zararlı olmasından ötürü işin varolması için bir gerekçe bulamadığı ve yine de işin şartlarından ötürü böyle bir durum yokmuş gibi davranmasının gerektiği, bir tür ücretli çalışmadır.**
+Antropolog ve yazar David Graeber bu konulara kafa yormuş ve Strike! dergisine 2013 yılında bir yazı kaleme almış (yazının linki [https://www.strike.coop/bullshit-jobs/](https://www.strike.coop/bullshit-jobs/)). Bu yazı zamanla ciddi bir tepki uyandırıyor (hatta Londra metrosuna yazıdan parçalar konuluyor: [https://www.vice.com/en_uk/article/yvq9qg/david-graeber-pointless-jobs-tube-poster-interview-912](https://www.vice.com/en_uk/article/yvq9qg/david-graeber-pointless-jobs-tube-poster-interview-912)) ve YouGov isimli ünlü anket firması bir sene sonra saçmalık işler üzerine bir anket yapıyor ve acayip sonuçlar ortaya çıkıyor. Mesela Britanya’da insanların yüzde 37'si çalıştıkları işler ile dünyaya bir katkılarının olmadığını düşünüyorlar (anketin linki [https://yougov.co.uk/topics/lifestyle/articles-reports/2015/08/12/british-jobs-meaningless](https://yougov.co.uk/topics/lifestyle/articles-reports/2015/08/12/british-jobs-meaningless) [)](https://yougov.co.uk/topics/lifestyle/articles-reports/2015/08/12/british-jobs-meaningless). Bu sonuçların üzerine Graeber kitap yazımı çalışmalarına başlıyor ve insanlarla bire bir yazışarak kendilerine çalıştıkları saçmalık işleri anlatmalarını istiyor. Gelen yüzlerce mektuptan sonra ise saçmalık işler için şöyle bir tanım yapıyor: **Saçmalık iş, kişinin, çalıştığı işin tamamen anlamsız, gereksiz ve hatta zararlı olmasından ötürü işin varolması için bir gerekçe bulamadığı ve yine de işin şartlarından ötürü böyle bir durum yokmuş gibi davranmasının gerektiği, bir tür ücretli çalışmadır.**
 
 Graeber, saçma işleri insanlardan gelen anekdotlara göre beş farklı kategoriye ayırmış. Dolayısıyla aşağıdaki tanımlar (yanlış hatırlamadığım sürece) kişilerin kendi tanıklıklarından gelen sınıflandırmalar. Bu tabii ki biraz keyfi bir sınıflandırma olmuş ama konunun anlaşılması açısından yararlı. Bunlar sırasıyla flunky, goon, duct-taper, box-ticker ve taskmaster olarak anılmış. Burada başlamadan yazayım, tabii ki aşağıda örnekleyeceğim mesleklerde işini gerçekten severek yapan, anlam bulan kişiler olacaktır. Zaten yukarıda verdiğim tanımda da, işin saçmalık olması tamamen yapan kişinin algısına bağlı bir durum. Neyse, başlayalım.
 
@@ -55,7 +54,7 @@ Son kategoriye ise **taskmaster** deniliyor. Bir kaç kez kendimi de içinde bul
 
 Peki o zaman ne yapmalı? Yazar, aslında çok daha radikal değişiklikler önerse de (devleti sorgulamaya kadar) ilk olarak basit bir evrensel temel geçim ücreti pratiğini öneriyor. Herkese ne iş yaparsa yapsın bu ücretin ödenmesi gerektiğini düşünüyor ve daha çok üretmek/tüketmek isteyenlerin bir seçeneği olacağına işaret ediyor. Bu bana da anlamlı gelen bir çözüm, sonuçta 10 bin senelik yerleşik yaşamımızda 4.5 milyar yaşındaki dünyanın bile kaynaklarını zorlar hale geldik. Bunun böyle gitmeyeceğini görmek için alim olmaya gerek yok. Biraz yavaşlayıp, özgürlüğün ve yaşamın ne olduğuna dair düşünmek herkes için faydalı bir egzersiz olacaktır.
 
-* * *
+---
 
 <img class="s t u hb ai" src="https://miro.medium.com/max/3840/1\*Rp\_8XoH3tsk2MZhtlpIIkw.jpeg" width="1920" height="1525" srcSet="https://miro.medium.com/max/552/1\*Rp\_8XoH3tsk2MZhtlpIIkw.jpeg 276w, https://miro.medium.com/max/1104/1\*Rp\_8XoH3tsk2MZhtlpIIkw.jpeg 552w, https://miro.medium.com/max/1280/1\*Rp\_8XoH3tsk2MZhtlpIIkw.jpeg 640w, https://miro.medium.com/max/1400/1\*Rp\_8XoH3tsk2MZhtlpIIkw.jpeg 700w" sizes="700px" role="presentation"/>
 
@@ -66,4 +65,4 @@ Yazıyı ünlü mimar ve mucit Buckminster Fuller’ın bir sözü ile bitirelim
 > “We should do away with the absolutely specious notion that everybody has to earn a living. It is a fact today that one in ten thousand of us can make a technological breakthrough capable of supporting all the rest. The youth of today are absolutely right in recognizing this nonsense of earning a living. We keep inventing jobs because of this false idea that everybody has to be employed at some kind of drudgery because, according to Malthusian Darwinian theory he must justify his right to exist. So we have inspectors of inspectors and people making instruments for inspectors to inspect inspectors. The true business of people should be to go back to school and think about whatever it was they were thinking about before somebody came along and told them they had to earn a living.”
 
 Sevgiler.
-➜  medium-export
+➜ medium-export
