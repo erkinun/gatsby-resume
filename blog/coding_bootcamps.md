@@ -4,7 +4,6 @@ date: 2020-05-21T20:25:29.751Z
 title: “Kodlama” eğitimleri dertlerimize çare olur mu?
 ---
 
-[![Erkin Ünlü](https://miro.medium.com/fit/c/96/96/0*QF4KlIqWfOofBeO_.jpg)](https://medium.com/@erkin_unlu?source=post_page-----7119c8866732----------------------)[Erkin Ünlü](https://medium.com/@erkin_unlu?source=post_page-----7119c8866732----------------------)Follow[Aug 2, 2018](https://medium.com/@erkin_unlu/kodlama-eğitimleri-dertlerimize-çare-olur-mu-7119c8866732?source=post_page-----7119c8866732----------------------) · 6 min read
 
 <img class="s t u fz ai" src="https://miro.medium.com/max/920/1\*GVKTObLpbCn30Tbxhi-1zQ.png" width="460" height="259" srcSet="https://miro.medium.com/max/552/1\*GVKTObLpbCn30Tbxhi-1zQ.png 276w, https://miro.medium.com/max/920/1\*GVKTObLpbCn30Tbxhi-1zQ.png 460w" sizes="460px" role="presentation"/>
 
