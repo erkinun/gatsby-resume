@@ -43,6 +43,13 @@ module.exports = {
         path: `${__dirname}/data/`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/images/`,
+      },
+    },
     `gatsby-transformer-remark`,
     {
       resolve: 'gatsby-plugin-react-svg',
@@ -54,6 +61,8 @@ module.exports = {
     },
     'gatsby-plugin-netlify-cms',
     `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-postcss`,
     {
