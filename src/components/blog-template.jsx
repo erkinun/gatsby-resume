@@ -33,6 +33,11 @@ export default function BlogTemplate({ data }) {
     a {
       color: ${blue};
     }
+
+    img {
+      max-width: 600px;
+      margin: 0px auto;
+    }
   `
 
   return (
