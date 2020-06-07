@@ -4,6 +4,7 @@ import { Page } from '../components'
 import { PostLink } from '../components'
 
 // TODO download the missing images and use cms to handle them
+// TODO collect all the blog images to one place
 // TODO actually write one blog : ) and then publish the branch
 // TODO 4 - pass page component some styling options to justify contents to top center or bottom?
 // TODO add tags to blogs, then a search mechanism using those blogs, especially languages tag
