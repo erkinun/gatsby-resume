@@ -3,7 +3,6 @@ import Img from 'gatsby-image'
 import styled from 'styled-components'
 
 import StyledLink, { blue } from './styledLink'
-import profile from './profile.png'
 
 import resume from '../../data/profile.json'
 
