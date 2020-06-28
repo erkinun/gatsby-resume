@@ -1,6 +1,6 @@
-import React from 'react';
-import Progress from './progress';
-import ListItem from './list_item';
+import React from 'react'
+import Progress from './progress'
+import ListItem from './list-item'
 
 const Skills = ({ data }) => (
   <section>
@@ -28,6 +28,6 @@ const Skills = ({ data }) => (
       </div>
     ))}
   </section>
-);
+)
 
-export default Skills;
+export default Skills
