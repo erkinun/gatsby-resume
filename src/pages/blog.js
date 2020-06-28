@@ -4,10 +4,9 @@ import { Page } from '../components'
 import { PostLink } from '../components'
 
 // TODO collect all the blog images to one place
-// TODO actually write one blog : ) and then publish the branch
 // TODO 4 - pass page component some styling options to justify contents to top center or bottom?
 // TODO add tags to blogs, then a search mechanism using those blogs, especially languages tag
-// TODO commenting mechanism?
+// TODO commenting mechanism? or just a contact me page?
 // TODO previous/next post might be a nice thing
 
 const Blog = ({
@@ -25,7 +24,10 @@ export default Blog
 
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+    allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      filter: { fileAbsolutePath: { regex: "/(blog)/" } }
+    ) {
       edges {
         node {
           id
