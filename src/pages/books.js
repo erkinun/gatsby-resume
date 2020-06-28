@@ -6,6 +6,7 @@ import { Page } from '../components'
 // TODO export data from either kindle or goodreads
 // TODO will require sorting
 // TODO implement search
+// TODO affiliate-links?
 const Books = () => (
   <Page title="Books" render={() => <div>Books will be done here</div>} />
 )
