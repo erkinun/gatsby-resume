@@ -1,5 +1,5 @@
-import React from 'react';
-import ListItem from './list_item';
+import React from 'react'
+import ListItem from './list-item'
 
 const List = ({ data }) => (
   <section>
@@ -10,6 +10,6 @@ const List = ({ data }) => (
       ))}
     </div>
   </section>
-);
+)
 
-export default List;
+export default List
