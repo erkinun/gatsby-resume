@@ -2,8 +2,9 @@ import React from 'react'
 
 import { Page } from '../components'
 
-// TODO use the cms tool somehow to
-// TODO export data from either kindle or goodreads
+// TODO next books listing page
+// TODO create a special book template component
+// TODO check everything works
 // TODO will require sorting
 // TODO implement search
 // TODO affiliate-links?

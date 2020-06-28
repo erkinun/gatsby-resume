@@ -5,11 +5,12 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   const blogPostTemplate = path.resolve(`src/components/blog-template.jsx`)
 
-  const result = await graphql(`
+  const blogs = await graphql(`
     {
       allMarkdownRemark(
         sort: { order: DESC, fields: [frontmatter___date] }
         limit: 1000
+        filter: { fileAbsolutePath: { regex: "/(blog)/" } }
       ) {
         edges {
           node {
@@ -23,14 +24,48 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   `)
 
   // Handle errors
-  if (result.errors) {
+  if (blogs.errors) {
     reporter.panicOnBuild(`Error while running GraphQL query.`)
     return
   }
 
-  result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+  blogs.data.allMarkdownRemark.edges.forEach(({ node }) => {
     createPage({
       path: '/blog/' + node.frontmatter.path,
+      component: blogPostTemplate,
+      context: {
+        slug: node.frontmatter.slug,
+        pathForBlog: node.frontmatter.path,
+      }, // additional data can be passed via context
+    })
+  })
+
+  const books = await graphql(`
+    {
+      allMarkdownRemark(
+        sort: { order: DESC, fields: [frontmatter___date] }
+        limit: 1000
+        filter: { fileAbsolutePath: { regex: "/(books)/" } }
+      ) {
+        edges {
+          node {
+            frontmatter {
+              path
+            }
+          }
+        }
+      }
+    }
+  `)
+
+  if (books.errors) {
+    reporter.panicOnBuild(`Error while running GraphQL query.`)
+    return
+  }
+
+  books.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    createPage({
+      path: '/books/' + node.frontmatter.path,
       component: blogPostTemplate,
       context: {
         slug: node.frontmatter.slug,
