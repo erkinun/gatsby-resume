@@ -15,6 +15,19 @@ collections:
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
+  - name: books
+    label: Books
+    folder: books
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: 'Read Date', widget: datetime }
+      - { name: title, label: Title }
+      - { name: score, label: Score, widget: number }
+      - { name: amazonLink, label: Amazon Link }
+      - { name: goodreadsLink, label: Goodreads Link }
+      - { name: 'thumbnail', label: 'Featured Image', widget: 'image' }
+      - { name: body, label: Body, widget: markdown }
   - name: content
     label: Content
     files:
