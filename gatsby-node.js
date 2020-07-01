@@ -63,13 +63,15 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     return
   }
 
+  const bookPostTemplate = path.resolve(`src/components/book-template.jsx`)
+
   books.data.allMarkdownRemark.edges.forEach(({ node }) => {
     createPage({
       path: '/books/' + node.frontmatter.path,
-      component: blogPostTemplate,
+      component: bookPostTemplate,
       context: {
         slug: node.frontmatter.slug,
-        pathForBlog: node.frontmatter.path,
+        pathForBook: node.frontmatter.path,
       }, // additional data can be passed via context
     })
   })

@@ -2,9 +2,10 @@ import React from 'react'
 
 import { Page } from '../components'
 
-// TODO next books listing page
-// TODO create a special book template component
+// TODO next books listing page, add an intro text there!
+// TODO maybe override links in book template component?
 // TODO check everything works
+// TODO use gatsby image for thumbnails?
 // TODO will require sorting
 // TODO implement search
 // TODO affiliate-links?

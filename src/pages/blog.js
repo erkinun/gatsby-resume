@@ -3,6 +3,7 @@ import React from 'react'
 import { Page } from '../components'
 import { PostLink } from '../components'
 
+// TODO add an intro text to listings page
 // TODO collect all the blog images to one place
 // TODO 4 - pass page component some styling options to justify contents to top center or bottom?
 // TODO add tags to blogs, then a search mechanism using those blogs, especially languages tag
