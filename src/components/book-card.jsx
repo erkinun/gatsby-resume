@@ -3,14 +3,16 @@ import styled from 'styled-components'
 
 const Title = styled.div`
   font-size: 2rem;
+  font-weight: 800;
   margin-bottom: 1rem;
 `
 
 const Photo = styled.div`
-  height: 9rem;
-  width: 6rem;
+  height: 12rem;
+  width: 8rem;
   float: left;
   margin-right: 2rem;
+  padding-top: 1rem;
 `
 
 const Main = styled.div`
@@ -40,7 +42,11 @@ const links = (goodreadsLink, amazonLink) => {
     amazonLink && { name: 'Amazon', link: amazonLink },
   ]
 
-  return ls.map(l => <Link href={l.link}>{l.name}</Link>)
+  return ls.map(l => (
+    <Link className="text-primary-500" href={l.link}>
+      {l.name}
+    </Link>
+  ))
 }
 
 export default ({
@@ -54,21 +60,29 @@ export default ({
 }) => {
   return (
     <Main>
-      <Photo>Photo will be here</Photo>
-      <Title>{title}</Title>
+      <Photo>
+        <a href={`/books/${postLink}`}>
+          <img src={photo} />
+        </a>
+      </Photo>
+      <Title className="text-primary-500">
+        <a href={`/books/${postLink}`}>{title}</a>
+      </Title>
       <div className="container">
         <Meta>
-          <Date>
+          <Date className="text-neutral-500">
             Date Read: <span>{date}</span>
           </Date>
-          <div>
+          <div className="text-neutral-500">
             Score: <strong>{score}</strong>/10
           </div>
         </Meta>
         <Text>{summary}</Text>
         <div className="links">
-          <a href={postLink}>Read the full review</a> or visit{' '}
-          {links(goodreadsLink, amazonLink)}for reviews and details
+          <a className="text-primary-500" href={`/books/${postLink}`}>
+            Read the full review
+          </a>{' '}
+          or visit {links(goodreadsLink, amazonLink)}for reviews and details
         </div>
       </div>
     </Main>

@@ -41,7 +41,7 @@ const Landing = ({ data }) => (
         CV
       </StyledLink>{' '}
       and{' '}
-      <StyledLink textColor={blue} to="/evolution">
+      <StyledLink textColor={blue} to="/journey">
         reflect
       </StyledLink>{' '}
       ony my journey.
