@@ -9,9 +9,9 @@ import '../main.css'
 // TODO add courses? cms? like coursera functional, udemy react and execute typescript
 // TODO fix the navigation width thing
 // TODO fix other parts? books? use netlify cms for that?
-// TODO evolution (about me) design and impl
+// TODO journey (about me) design and impl
+// TODO contact me page
 // TODO pdf download for resume?
-
 const Page = ({ render, title }) => (
   <main className="antialiased text-neutral-900 bg-blue-800 min-h-screen sm:p-5">
     <SEO title={title} />

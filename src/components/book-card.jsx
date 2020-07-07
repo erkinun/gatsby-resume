@@ -61,12 +61,12 @@ export default ({
   return (
     <Main>
       <Photo>
-        <a href={postLink}>
+        <a href={`/books/${postLink}`}>
           <img src={photo} />
         </a>
       </Photo>
       <Title className="text-primary-500">
-        <a href={postLink}>{title}</a>
+        <a href={`/books/${postLink}`}>{title}</a>
       </Title>
       <div className="container">
         <Meta>
@@ -79,7 +79,7 @@ export default ({
         </Meta>
         <Text>{summary}</Text>
         <div className="links">
-          <a className="text-primary-500" href={postLink}>
+          <a className="text-primary-500" href={`/books/${postLink}`}>
             Read the full review
           </a>{' '}
           or visit {links(goodreadsLink, amazonLink)}for reviews and details
