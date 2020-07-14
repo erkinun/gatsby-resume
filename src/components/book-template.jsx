@@ -17,6 +17,10 @@ export default function BookTemplate({ data }) {
     padding-top: 1rem;
   `
 
+  const Img = styled.img`
+    height: 100%;
+  `
+
   const Title = styled.h1`
     font-size: 2.5rem;
     font-weight: 800;
@@ -58,10 +62,12 @@ export default function BookTemplate({ data }) {
       render={() => (
         <Book className="blog-post-container">
           <div className="blog-post">
-            <Photo>
-              <img src={`/${frontmatter.thumbnail}`} />
-            </Photo>
-            <Title className="text-primary-500">{frontmatter.title}</Title>
+            <Title className="text-primary-500">
+              <Photo>
+                <Img src={`/${frontmatter.thumbnail}`} />
+              </Photo>
+              {frontmatter.title}
+            </Title>
             <Date className="text-neutral-500">
               Date read {frontmatter.date}
             </Date>

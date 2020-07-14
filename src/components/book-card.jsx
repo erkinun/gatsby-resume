@@ -15,6 +15,10 @@ const Photo = styled.div`
   padding-top: 1rem;
 `
 
+const Img = styled.img`
+  height: 100%;
+`
+
 const Main = styled.div`
   width: 50rem;
 `
@@ -60,12 +64,12 @@ export default ({
 }) => {
   return (
     <Main>
-      <Photo>
-        <a href={`/books/${postLink}`}>
-          <img src={`/${photo}`} />
-        </a>
-      </Photo>
       <Title className="text-primary-500">
+        <Photo>
+          <a href={`/books/${postLink}`}>
+            <Img src={`/${photo}`} />
+          </a>
+        </Photo>
         <a href={`/books/${postLink}`}>{title}</a>
       </Title>
       <div className="container">
