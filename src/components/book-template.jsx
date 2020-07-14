@@ -59,7 +59,7 @@ export default function BookTemplate({ data }) {
         <Book className="blog-post-container">
           <div className="blog-post">
             <Photo>
-              <img src={frontmatter.thumbnail} />
+              <img src={`/${frontmatter.thumbnail}`} />
             </Photo>
             <Title className="text-primary-500">{frontmatter.title}</Title>
             <Date className="text-neutral-500">

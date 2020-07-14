@@ -62,7 +62,7 @@ export default ({
     <Main>
       <Photo>
         <a href={`/books/${postLink}`}>
-          <img src={photo} />
+          <img src={`/${photo}`} />
         </a>
       </Photo>
       <Title className="text-primary-500">

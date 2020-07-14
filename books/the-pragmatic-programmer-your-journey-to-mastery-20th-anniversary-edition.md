@@ -5,7 +5,7 @@ title: 'The Pragmatic Programmer: your journey to mastery, 20th Anniversary Edit
 score: 8
 amazonLink: https://www.amazon.co.uk/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052/ref=sr_1_1?crid=259W5Y2V4J1F7&dchild=1&keywords=pragmatic+programmer&qid=1593360949&sprefix=pragmatic%2Caps%2C197&sr=8-1
 goodreadsLink: https://www.goodreads.com/book/show/52715562-the-pragmatic-programmer
-thumbnail: /assets/pragmatic.jpg
+thumbnail: assets/pragmatic.jpg
 ---
 
 8 out of 10 this time around.
