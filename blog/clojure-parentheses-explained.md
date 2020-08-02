@@ -68,9 +68,11 @@ How does Clojure's REPL handle this function call? Like most programming languag
 
 So we can tell how the above is evaluated:
 
+```clojure
 1. (+ 4 5) ⇒ 9
 2. (+ 3 9) ⇒ 12
 3. (+ 1 2 12) ⇒ 15
+```
 
 <br/>
 
