@@ -41,6 +41,20 @@ export default function BlogTemplate({ data }) {
       max-width: 600px;
       margin: 0px auto;
     }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 800;
+      margin: 1rem 0;
+    }
+
+    ul {
+      list-style: inside;
+    }
+
+    ol {
+      list-style: upper-roman;
+    }
   `
 
   return (
@@ -53,7 +67,7 @@ export default function BlogTemplate({ data }) {
               Posted on {frontmatter.date}
             </Date>
             <BlogBody
-              className="blog-post-content"
+              className="blog-post-content text-neutral-500"
               dangerouslySetInnerHTML={{ __html: html }}
             />
           </div>
