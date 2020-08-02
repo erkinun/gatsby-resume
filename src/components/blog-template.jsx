@@ -1,9 +1,12 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import styled from 'styled-components'
+import { defineCustomElements as deckDeckGoHighlightElement } from '@deckdeckgo/highlight-code/dist/loader'
 
 import Page from '../components/page'
 import { blue } from '../components/styledLink'
+
+deckDeckGoHighlightElement()
 
 export default function BlogTemplate({ data }) {
   const { markdownRemark } = data
