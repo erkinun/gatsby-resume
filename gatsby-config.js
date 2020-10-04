@@ -102,5 +102,11 @@ module.exports = {
         tailwind: true, // Enable tailwindcss support
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-179534693-1',
+      },
+    },
   ],
 }
