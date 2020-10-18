@@ -55,6 +55,18 @@ export default function BookTemplate({ data }) {
       max-width: 600px;
       margin: 0px auto;
     }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      margin: 1.5rem 0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 800;
+      margin: 1rem 0;
+    }
   `
 
   return (
