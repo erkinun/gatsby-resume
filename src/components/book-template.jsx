@@ -91,7 +91,7 @@ export default function BookTemplate({ data }) {
               for other reviews
             </Score>
             <Body
-              className="blog-post-content"
+              className="blog-post-content text-neutral-500"
               dangerouslySetInnerHTML={{ __html: html }}
             />
           </div>
