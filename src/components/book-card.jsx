@@ -21,6 +21,7 @@ const Img = styled.img`
 
 const Main = styled.div`
   width: 50rem;
+  margin-bottom: 2.5rem;
 `
 
 const Meta = styled.div`
