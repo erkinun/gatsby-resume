@@ -90,8 +90,8 @@
     {
       "role": "Senior Software Engineer",
       "company": "Uswitch Limited",
-      "tech": "clojure, javascript, docker, kubernetes, react, redux, ring, node, lein",
-      "description": "I'm working as a Full Stack Engineer and have been contributing to the affiliate media platform team in the revenue estimation and product tooling projects. I've started the first React project of the team, completed it to production and wrote the backend as a Clojure Ring App at the same time.",
+      "tech": "clojure, javascript, kotlin, docker, kubernetes, react, redux, ring, node, lein",
+      "description": "I'm working as a senior software engineer and have been contributing to the affiliate media platform team in the revenue estimation and product tooling projects. I've started the first React project of the team, completed it to production and wrote the backend as a Clojure Ring App at the same time.",
       "start": "09/2019",
       "end": ""
     },
