@@ -91,7 +91,7 @@
       "role": "Senior Software Engineer",
       "company": "Uswitch Limited",
       "tech": "clojure, javascript, kotlin, docker, kubernetes, react, redux, ring, node, lein",
-      "description": "I'm working as a senior software engineer and have been contributing to the affiliate media platform team in the revenue estimation and product tooling projects. I've started the first React project of the team, completed it to production and wrote the backend as a Clojure Ring App at the same time.",
+      "description": "I'm working as a senior software engineer and have been contributing to the affiliate marketing platform team in the revenue estimation and product tooling projects. I've started the first React project of the team, completed it to production and wrote the backend as a Clojure Ring App at the same time. Since then I've been contributing to team's product ingestion pipeline and other apis written in Clojure and Kotlin.",
       "start": "09/2019",
       "end": ""
     },
@@ -107,7 +107,7 @@
       "role": "Scala Developer",
       "company": "Jobsite UK",
       "tech": "scala, apache-spark, amazon-web-services, jenkins, sbt ",
-      "description": "I was a part of the team that built the data pipeline that is being used by other applications through out the company. I focused on writing Scala modules for the Spark pipeline.",
+      "description": "I was a part of the team that built the data pipeline that is being used by other applications throughout the company. I focused on writing Scala modules for the Spark pipeline.",
       "start": "02/2017",
       "end": "03/2018"
     },
