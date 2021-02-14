@@ -10,8 +10,9 @@ const Paragraph = styled.p`
   margin-left: auto;
   margin-right: auto;
 `
-const Welcome = styled.p`
+const Welcome = styled.span`
   font-size: 2rem;
+  display: block;
 `
 
 const StyledImg = styled(Img)`
