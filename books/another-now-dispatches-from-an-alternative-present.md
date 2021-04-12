@@ -7,7 +7,7 @@ amazonLink: https://www.amazon.co.uk/gp/product/B0829Q9HFY/ref=x_gr_w_bb_sin?ie=
 goodreadsLink: https://www.goodreads.com/book/show/55285874-another-now
 thumbnail: assets/another_now.jpg
 ---
-Yanis Varoufakis tries depict an alternative reality where the crisis of 2008 was actually used to bring structural change to the world and persuades us that a world without rampant capitalism (but still with markets) is possible and maybe much more beneficial to the whole of the society than what we currently have. Reading the book felt like he's now trying to disprove the current notion that capitalism is the only possible economic mechanism humanity can have and tries to paint a rosier alternative of collective markets with hacktivism and democratic and genius measures to protect us all.
+Yanis Varoufakis tries to depict an alternative reality where the crisis of 2008 was actually used to bring structural change to the world and persuades us that a world without rampant capitalism (but still with markets) is possible and maybe much more beneficial to the whole of the society than what we currently have. Reading the book felt like he's now trying to disprove the current notion that capitalism is the only possible economic mechanism humanity can have and tries to paint a rosier alternative of collective markets with hacktivism and democratic and genius measures to protect us all.
 
 # Big ideas
 
