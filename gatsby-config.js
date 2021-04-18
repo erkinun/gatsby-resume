@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Erkin Ünlü | Functional Programmer`,
+    title: `Erkin Ünlü | Software Engineer`,
     author: `Erkin Ünlü`,
     description: `Software Engineer specialised in functional programming`,
     siteUrl: `https://erkinunlu.net/`,
@@ -18,7 +18,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Erkin Ünlü | Functional Programmer`,
+        name: `Erkin Ünlü | Software Engineer`,
         short_name: `CV`,
         start_url: `/`,
         background_color: `#f7f0eb`,
