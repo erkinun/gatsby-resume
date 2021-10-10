@@ -7,7 +7,7 @@ title: You don't need classes!
 
 I'm going to make a bold claim right away and tell you that you don't need classes to be a better programmer! Most of us programmers could just get away with using dynamic typed maps and arrays and compute what we need to compute. This way of thinking is going to improve your productivity. I'm going to tell you how.
 
-![we dont need no education](assets/we-dont-need-no-education-yes-you-do-youve-just-used-a-double-negative-it-crowd.jpg "You need education, but not classes. ")
+![we dont need no education](../static/assets/we-dont-need-no-education-yes-you-do-youve-just-used-a-double-negative-it-crowd.jpg "You need education, but not classes. ")
 
 
 
