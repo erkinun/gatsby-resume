@@ -169,6 +169,13 @@
   "role": "Software Engineer",
   "projects": [
     {
+      "name": "Flashcards for Life in the UK test",
+      "company": "Open source",
+      "description": "This is a React app that I built to study for Life in the UK test, questions are loaded statically but can be improved for each user's own set of questions.",
+      "link": "https://erkinun.github.io/Flashcards/",
+      "tech": ["ReactJS", "Javascript"]
+    },
+    {
       "name": "Professional Psychology Counselling Site",
       "company": "Open source",
       "description": "Used the starter template from https://github.com/madelyneriksen/gatsby-starter-tyra with a Netlify CMS implementation. This is a project that I built for my wife's psychology counselling business and blog.",
