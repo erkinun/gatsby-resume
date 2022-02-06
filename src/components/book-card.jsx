@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-
+import StyledLink from './styledLink'
 const Title = styled.div`
   font-size: 2rem;
   font-weight: 800;
@@ -22,6 +22,9 @@ const Img = styled.img`
 const Main = styled.div`
   width: 50rem;
   margin-bottom: 2.5rem;
+  @media (max-width: 390px) {
+    width: 20rem;
+  }
 `
 
 const Meta = styled.div`
@@ -71,7 +74,14 @@ export default ({
             <Img src={`/${photo}`} />
           </a>
         </Photo>
-        <a href={`/books/${postLink}`}>{title}</a>
+        <StyledLink
+          to={`/books/${postLink}`}
+          fontSize="2rem"
+          marginBottom="1rem"
+          display="block"
+        >
+          {title}
+        </StyledLink>
       </Title>
       <div className="container">
         <Meta>
