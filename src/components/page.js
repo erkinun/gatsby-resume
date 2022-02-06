@@ -15,7 +15,7 @@ import '../main.css'
 const Page = ({ render, title }) => (
   <main className="antialiased text-neutral-900 bg-blue-800 min-h-screen sm:p-5">
     <SEO title={title} />
-    <div className="container flex flex-col min-h-screen mx-auto shadow bg-blue-900 py-5 px-10">
+    <div className="container flex flex-col min-h-screen mx-auto shadow bg-blue-900 py-5 px-5 sm:px-10">
       <Header name={resume.fullname} role={resume.role} />
       <div className="md:flex-row flex-col md:flex flex-1 main text-white">
         <Navigation />
