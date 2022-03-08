@@ -2,7 +2,11 @@ import React from 'react'
 
 const Projects = ({ data }) => (
   <section>
-    <h1 className="section-header">Projects</h1>
+    <h1 className="section-header">
+      <a id="projects" href="#projects">
+        Projects
+      </a>
+    </h1>
     {data.map(item => (
       <article className="my-5" key={item.name}>
         <h2 className="item-header text-white">{item.name}</h2>
