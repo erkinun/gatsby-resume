@@ -175,6 +175,13 @@
   "role": "Software Engineer",
   "projects": [
     {
+      "name": "Tv Show site",
+      "company": "Open source",
+      "description": "This is a React app that I built to improve my CSS skills by imitating the biggest movie database site in the web.",
+      "link": "https://erkinun.github.io/TvShows/",
+      "tech": ["ReactJS", "Javascript"]
+    },
+    {
       "name": "Flashcards for Life in the UK test",
       "company": "Open source",
       "description": "This is a React app that I built to study for Life in the UK test, questions are loaded statically but can be improved for each user's own set of questions.",
