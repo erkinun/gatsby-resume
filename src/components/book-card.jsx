@@ -20,11 +20,8 @@ const Img = styled.img`
 `
 
 const Main = styled.div`
-  width: 50rem;
+  width: auto;
   margin-bottom: 2.5rem;
-  @media (max-width: 390px) {
-    width: 20rem;
-  }
 `
 
 const Meta = styled.div`
@@ -83,7 +80,7 @@ export default ({
           {title}
         </StyledLink>
       </Title>
-      <div className="container">
+      <div className="container" style={{ fontSize: '22px' }}>
         <Meta>
           <Date className="text-neutral-500">
             Date Read: <span>{date}</span>
