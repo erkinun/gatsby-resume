@@ -2,19 +2,7 @@ const { colors } = require('tailwindcss/defaultTheme')
 
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
-  plugins: [
-    function ({ addUtilities }) {
-      addUtilities({
-        '.btn-secondary ': {
-          '@apply bg-gray-500 text-white;': {},
-        },
-        '.btn-secondary:hover': {
-          '@apply bg-foo': {},
-        },
-        // ...
-      })
-    },
-  ],
+  plugins: [],
   theme: {
     colors: {
       transparent: 'transparent',
