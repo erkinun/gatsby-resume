@@ -19,7 +19,7 @@ const Page = ({ render, title }) => (
       <Header name={resume.fullname} role={resume.role} />
       <div className="md:flex-row flex-col md:flex flex-1 main text-white">
         <Navigation />
-        <section className="flex-1 py-5 border-b border-neutral-800 lg:flex items-center">
+        <section className="flex-1 py-5 border-b border-gray-800 lg:flex items-center">
           {render()}
         </section>
       </div>

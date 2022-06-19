@@ -95,13 +95,13 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-postcss`,
-    {
+    /*     {
       resolve: `gatsby-plugin-purgecss`,
       options: {
         printRejected: true,
         tailwind: true, // Enable tailwindcss support
       },
-    },
+    }, */
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
