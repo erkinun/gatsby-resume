@@ -25,7 +25,7 @@ const PostLink = ({ post }) => (
       {post.excerpt}{' '}
       <StyledLink to={`/blog/${post.frontmatter.path}`}>>></StyledLink>
     </div>
-    <DateDiv className="text-neutral-500">{post.frontmatter.date}</DateDiv>
+    <DateDiv className="text-gray-500">{post.frontmatter.date}</DateDiv>
   </StyledDiv>
 )
 

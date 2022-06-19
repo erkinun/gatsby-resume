@@ -6,14 +6,14 @@
 }
 
 .btn-secondary {
-  @apply bg-secondary-500 text-white;
+  @apply bg-blue-500 text-white;
 }
 .btn-secondary:hover {
-  @apply bg-secondary-700;
+  @apply bg-blue-700;
 }
 
 .contact-icon {
-  @apply fill-current w-4 h-4 mr-4 text-secondary-500;
+  @apply fill-current w-4 h-4 mr-4 text-blue-500;
 }
 
 .contact-link {
