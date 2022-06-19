@@ -47,8 +47,8 @@ const links = (goodreadsLink, amazonLink) => {
     amazonLink && { name: 'Amazon', link: amazonLink },
   ]
 
-  return ls.map(l => (
-    <Link className="text-primary-500" href={l.link}>
+  return ls.map((l) => (
+    <Link className="text-blue-500" href={l.link}>
       {l.name}
     </Link>
   ))
@@ -65,7 +65,7 @@ export default ({
 }) => {
   return (
     <Main>
-      <Title className="text-primary-500">
+      <Title className="text-blue-500">
         <Photo>
           <a href={`/books/${postLink}`}>
             <Img src={`/${photo}`} />
@@ -82,16 +82,16 @@ export default ({
       </Title>
       <div className="container" style={{ fontSize: '22px' }}>
         <Meta>
-          <Date className="text-neutral-500">
+          <Date className="text-gray-500">
             Date Read: <span>{date}</span>
           </Date>
-          <div className="text-neutral-500">
+          <div className="text-gray-500">
             Score: <strong>{score}</strong>/10
           </div>
         </Meta>
         <Text>{summary}</Text>
         <div className="links">
-          <a className="text-primary-500" href={`/books/${postLink}`}>
+          <a className="text-blue-500" href={`/books/${postLink}`}>
             Read the full review
           </a>{' '}
           or visit {links(goodreadsLink, amazonLink)}for reviews and details

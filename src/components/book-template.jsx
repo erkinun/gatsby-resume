@@ -74,36 +74,31 @@ export default function BookTemplate({ data }) {
       render={() => (
         <Book className="blog-post-container">
           <div className="blog-post">
-            <Title className="text-primary-500">
+            <Title className="text-blue-500">
               <Photo>
                 <Img src={`/${frontmatter.thumbnail}`} />
               </Photo>
               {frontmatter.title}
             </Title>
-            <Date className="text-neutral-500">
-              Date read {frontmatter.date}
-            </Date>
-            <Score className="text-neutral-500">
+            <Date className="text-gray-500">Date read {frontmatter.date}</Date>
+            <Score className="text-gray-500">
               How much I recommend: <strong>{frontmatter.score}</strong>/10, Go
               to{' '}
               {frontmatter.amazonLink && (
-                <a className="text-primary-500" href={frontmatter.amazonLink}>
+                <a className="text-blue-500" href={frontmatter.amazonLink}>
                   Amazon
                 </a>
               )}
               {' or '}
               {frontmatter.goodreadsLink && (
-                <a
-                  className="text-primary-500"
-                  href={frontmatter.goodreadsLink}
-                >
+                <a className="text-blue-500" href={frontmatter.goodreadsLink}>
                   Goodreads
                 </a>
               )}{' '}
               for other reviews
             </Score>
             <Body
-              className="blog-post-content text-neutral-500"
+              className="blog-post-content text-gray-500"
               dangerouslySetInnerHTML={{ __html: html }}
             />
           </div>
@@ -114,7 +109,7 @@ export default function BookTemplate({ data }) {
 }
 
 export const query = graphql`
-  query($pathForBook: String!) {
+  query ($pathForBook: String!) {
     markdownRemark(frontmatter: { path: { eq: $pathForBook } }) {
       html
       frontmatter {

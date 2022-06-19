@@ -8,7 +8,7 @@ const Footer = ({ social }) => (
         © {new Date().getFullYear()} | Developed with
       </span>
       <a
-        className="text-primary-500 hover:text-primary-700 font-bold"
+        className="text-blue-500 hover:text-blue-700 font-bold"
         href="https://www.gatsbyjs.org"
         target="_blank"
         rel="noopener noreferrer"
@@ -18,7 +18,7 @@ const Footer = ({ social }) => (
     </div>
     {social && (
       <div className="flex items-center justify-center ml-2">
-        {social.map(item => (
+        {social.map((item) => (
           <a
             key={item.service}
             className="footer-social-link"

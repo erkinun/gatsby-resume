@@ -13,13 +13,13 @@ import '../main.css'
 // TODO contact me page
 // TODO pdf download for resume?
 const Page = ({ render, title }) => (
-  <main className="antialiased text-neutral-900 bg-blue-800 min-h-screen sm:p-5">
+  <main className="antialiased text-gray-900 bg-blue-800 min-h-screen sm:p-5">
     <SEO title={title} />
     <div className="container flex flex-col min-h-screen mx-auto shadow bg-blue-900 py-5 px-5 sm:px-10">
       <Header name={resume.fullname} role={resume.role} />
       <div className="md:flex-row flex-col md:flex flex-1 main text-white">
         <Navigation />
-        <section className="flex-1 py-5 border-b border-neutral-800 lg:flex items-center">
+        <section className="flex-1 py-5 border-b border-gray-800 lg:flex items-center">
           {render()}
         </section>
       </div>

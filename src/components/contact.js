@@ -1,11 +1,11 @@
-import React from 'react';
-import MailIcon from '../assets/mail.svg';
-import MobileIcon from '../assets/mobile.svg';
-import GlobeIcon from '../assets/globe.svg';
-import LocationIcon from '../assets/location.svg';
+import React from 'react'
+import MailIcon from '../assets/mail.svg'
+import MobileIcon from '../assets/mobile.svg'
+import GlobeIcon from '../assets/globe.svg'
+import LocationIcon from '../assets/location.svg'
 
 const Contact = ({ field, value }) => (
-  <span className="flex my-2 text-primary-900 tracking-widest items-center">
+  <span className="flex my-2 text-blue-900 tracking-widest items-center">
     {field === 'email' && (
       <>
         <MailIcon className="contact-icon" />
@@ -43,6 +43,6 @@ const Contact = ({ field, value }) => (
       </>
     )}
   </span>
-);
+)
 
-export default Contact;
+export default Contact

@@ -68,12 +68,10 @@ export default function BlogTemplate({ data }) {
       render={() => (
         <Blog className="blog-post-container">
           <div className="blog-post">
-            <Title className="text-primary-500">{frontmatter.title}</Title>
-            <Date className="text-neutral-500">
-              Posted on {frontmatter.date}
-            </Date>
+            <Title className="text-blue-500">{frontmatter.title}</Title>
+            <Date className="text-gray-500">Posted on {frontmatter.date}</Date>
             <BlogBody
-              className="blog-post-content text-neutral-500"
+              className="blog-post-content text-gray-500"
               dangerouslySetInnerHTML={{ __html: html }}
             />
           </div>
@@ -84,7 +82,7 @@ export default function BlogTemplate({ data }) {
 }
 
 export const query = graphql`
-  query($pathForBlog: String!) {
+  query ($pathForBlog: String!) {
     markdownRemark(frontmatter: { path: { eq: $pathForBlog } }) {
       html
       frontmatter {

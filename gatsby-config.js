@@ -96,13 +96,6 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-postcss`,
     {
-      resolve: `gatsby-plugin-purgecss`,
-      options: {
-        printRejected: true,
-        tailwind: true, // Enable tailwindcss support
-      },
-    },
-    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: 'UA-179534693-1',
