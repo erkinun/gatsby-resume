@@ -97,7 +97,7 @@
       "role": "Senior Software Engineer",
       "company": "Uswitch Limited",
       "tech": "typescript, clojure, javascript, kotlin, docker, kubernetes, react, redux, ring, node, lein",
-      "description": "I'm working as a senior full stack software engineer and have been contributing to the money engineering team with migration from various older tech stacks into the current framework, utilising Typescript and Javascript with Node and Kubernetes. I have previously worked with affiliate marketing platform team in the revenue estimation and product tooling projects. I've started the first React project of the team said team, completed it to production and wrote the backend as a Clojure Ring App at the same time. After that I had contributed to team's product ingestion pipeline and other apis written in Clojure and Kotlin.",
+      "description": "I'm working as a senior full stack software engineer and have been contributing to the money engineering team with migration from various older tech stacks into the current framework, utilising Typescript and Javascript with Node and Kubernetes. I have previously worked with affiliate marketing platform team in the revenue estimation and product tooling projects. I've started the first React project of the said team, completed it to production and wrote the backend as a Clojure Ring App at the same time. After that I had contributed to team's product ingestion pipeline and other apis written in Clojure and Kotlin.",
       "start": "09/2019",
       "end": ""
     },
@@ -179,7 +179,7 @@
       "company": "Open source",
       "description": "This is a React app that I built to improve my CSS skills by imitating the biggest movie database site in the web.",
       "link": "https://erkinun.github.io/TvShows/",
-      "tech": ["ReactJS", "Javascript"]
+      "tech": ["ReactJS", "Redux", "Javascript"]
     },
     {
       "name": "Flashcards for Life in the UK test",
