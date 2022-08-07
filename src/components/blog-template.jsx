@@ -48,7 +48,8 @@ export default function BlogTemplate({ data }) {
       margin: 1.5rem 0;
     }
 
-    h2 {
+    h2,
+    h3 {
       font-size: 1.5rem;
       font-weight: 800;
       margin: 1rem 0;
@@ -68,8 +69,14 @@ export default function BlogTemplate({ data }) {
       render={() => (
         <Blog className="blog-post-container">
           <div className="blog-post">
-            <Title className="text-blue-500">{frontmatter.title}</Title>
-            <Date className="text-gray-500">Posted on {frontmatter.date}</Date>
+            {frontmatter?.title && (
+              <Title className="text-blue-500">{frontmatter.title}</Title>
+            )}
+            {frontmatter?.date && (
+              <Date className="text-gray-500">
+                Posted on {frontmatter.date}
+              </Date>
+            )}
             <BlogBody
               className="blog-post-content text-gray-500"
               dangerouslySetInnerHTML={{ __html: html }}
