@@ -224,9 +224,9 @@
     {
       "name": "Weather App",
       "company": "Open Source",
-      "description": "A weather tracking application built for learning purposes. It uses Node.js and Javascript.",
-      "link": "https://erkinunlu-weather-app.herokuapp.com",
-      "tech": ["Javascript", "Node.js", "Express", "Heroku"]
+      "description": "A weather tracking application built for learning purposes. It uses Next.js and Typescript.",
+      "link": "https://https://weather-app-nextjs-erkinun.vercel.app/",
+      "tech": ["Typescript", "Next.js", "Vercel"]
     }
   ],
   "todos": ["check github for more"],
