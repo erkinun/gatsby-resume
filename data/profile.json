@@ -175,6 +175,13 @@
   "role": "Software Engineer",
   "projects": [
     {
+      "name": "Weather App",
+      "company": "Open Source",
+      "description": "A weather tracking application built for learning purposes. It uses Next.js and Typescript.",
+      "link": "https://https://weather-app-nextjs-erkinun.vercel.app/",
+      "tech": ["Typescript", "Next.js", "Vercel"]
+    },
+    {
       "name": "Tv Show site",
       "company": "Open source",
       "description": "This is a React app that I built to improve my CSS skills by imitating the biggest movie database site in the web.",
@@ -220,13 +227,6 @@
       "description": "Workout tracker application that is written with React and Typescript as a learning project. It utilises Firebase as a backend.",
       "link": "https://workouts-logging.herokuapp.com",
       "tech": ["ReactJS", "Typescript", "Firebase", "Heroku"]
-    },
-    {
-      "name": "Weather App",
-      "company": "Open Source",
-      "description": "A weather tracking application built for learning purposes. It uses Next.js and Typescript.",
-      "link": "https://https://weather-app-nextjs-erkinun.vercel.app/",
-      "tech": ["Typescript", "Next.js", "Vercel"]
     }
   ],
   "todos": ["check github for more"],
