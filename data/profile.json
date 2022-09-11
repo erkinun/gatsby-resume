@@ -178,7 +178,7 @@
       "name": "Weather App",
       "company": "Open Source",
       "description": "A weather tracking application built for learning purposes. It uses Next.js and Typescript.",
-      "link": "https://https://weather-app-nextjs-erkinun.vercel.app/",
+      "link": "https://weather-app-nextjs-erkinun.vercel.app/",
       "tech": ["Typescript", "Next.js", "Vercel"]
     },
     {
