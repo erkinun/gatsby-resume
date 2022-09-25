@@ -94,12 +94,19 @@
   ],
   "experience": [
     {
+      "role": "Contract Software Engineer",
+      "company": "Novus Fortuna",
+      "tech": "typescript, clojure, javascript, kotlin, docker, kubernetes, react, redux, ring, node, lein",
+      "description": "I started Novus Fortuna to start contracting outside IR35 in the UK for full stack engineering positions. I've worked with a variety of clients and technologies. I've worked with React, Redux, Node, Ring, Lein, Kotlin, Typescript, Clojure, Docker, Kubernetes, AWS, GCP, Firebase, Postgresql, ElasticSearch, Apache Spark, Akka, Gatsby, Express, and more.",
+      "start": "09/2022"
+    },
+    {
       "role": "Senior Software Engineer",
       "company": "Uswitch Limited",
       "tech": "typescript, clojure, javascript, kotlin, docker, kubernetes, react, redux, ring, node, lein",
       "description": "I'm working as a senior full stack software engineer and have been contributing to the money engineering team with migration from various older tech stacks into the current framework, utilising Typescript and Javascript with Node and Kubernetes. I have previously worked with affiliate marketing platform team in the revenue estimation and product tooling projects. I've started the first React project of the said team, completed it to production and wrote the backend as a Clojure Ring App at the same time. After that I had contributed to team's product ingestion pipeline and other apis written in Clojure and Kotlin.",
       "start": "09/2019",
-      "end": ""
+      "end": "09/2022"
     },
     {
       "role": "Senior Software Engineer",
@@ -174,6 +181,13 @@
   ],
   "role": "Software Engineer",
   "projects": [
+    {
+      "name": "Rick and Morty",
+      "company": "Open Source",
+      "description": "Rick and Morty is one of my favourite tv shows. I have created a simple app to browse the characters and episodes of the show. I have used ReactJs, Typescript, React Query, GraphQL, and ViteJS.",
+      "link": "https://lucent-piroshki-cd5b08.netlify.app/",
+      "tech": ["Typescript", "ViteJS", "React Query", "Netlify", "GraphQL", "ReactJs"]
+    },
     {
       "name": "Weather App",
       "company": "Open Source",
