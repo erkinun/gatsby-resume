@@ -96,8 +96,8 @@
     {
       "role": "Contract Software Engineer",
       "company": "Novus Fortuna",
-      "tech": "typescript, clojure, javascript, kotlin, docker, kubernetes, react, redux, ring, node, lein",
-      "description": "I started Novus Fortuna to start contracting outside IR35 in the UK for full stack engineering positions. I've worked with a variety of clients and technologies. I've worked with React, Redux, Node, Ring, Lein, Kotlin, Typescript, Clojure, Docker, Kubernetes, AWS, GCP, Firebase, Postgresql, ElasticSearch, Apache Spark, Akka, Gatsby, Express, and more.",
+      "tech": "typescript, javascript, docker, kubernetes, react, vite, redux, react query, mui, clojure, ring, node, lein",
+      "description": "I started Novus Fortuna to start contracting outside IR35 in the UK for full stack engineering positions. I've worked with a variety of clients and technologies including React, Redux, Node, Ring, Lein, Kotlin, Typescript, Clojure, Docker, Kubernetes, AWS, GCP, Firebase, Postgresql, ElasticSearch, Apache Spark, Akka, Gatsby, Express, and more.",
       "start": "09/2022"
     },
     {
@@ -182,6 +182,13 @@
   "role": "Software Engineer",
   "projects": [
     {
+      "name": "Workout Logging",
+      "company": "Open Source",
+      "description": "Workout tracker application that is written with Next.js and Typescript. It utilizes Firebase as a backend.",
+      "link": "https://workouts-nextjs.vercel.app/dashboard",
+      "tech": ["Next.js", "Typescript", "Firebase", "Vercel"]
+    },
+    {
       "name": "Rick and Morty",
       "company": "Open Source",
       "description": "Rick and Morty is one of my favourite tv shows. I have created a simple app to browse the characters and episodes of the show. I have used ReactJs, Typescript, React Query, GraphQL, and ViteJS.",
@@ -207,7 +214,7 @@
       "company": "Open source",
       "description": "This is a React app that I built to study for Life in the UK test, questions are loaded statically but can be improved for each user's own set of questions.",
       "link": "https://erkinun.github.io/Flashcards/",
-      "tech": ["ReactJS", "Javascript"]
+      "tech": ["ReactJS", "Javascript", "Create React App"]
     },
     {
       "name": "Professional Psychology Counselling Site",
@@ -234,13 +241,6 @@
       "company": "Out of business startup",
       "description": "Social media look alike like Twitter to share a feed of wishes, goals and events with friends.",
       "tech": ["PHP", "JQuery"]
-    },
-    {
-      "name": "Workout Logging",
-      "company": "Open Source",
-      "description": "Workout tracker application that is written with React and Typescript as a learning project. It utilises Firebase as a backend.",
-      "link": "https://workouts-logging.herokuapp.com",
-      "tech": ["ReactJS", "Typescript", "Firebase", "Heroku"]
     }
   ],
   "todos": ["check github for more"],
