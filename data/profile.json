@@ -189,6 +189,13 @@
       "tech": ["Next.js", "Typescript", "Firebase", "Vercel"]
     },
     {
+      "name": "Bin Days",
+      "company": "Open Source",
+      "description": "A bin collection site I created for my neighbourhood. It is written with Next.js and Typescript.",
+      "link": "https://bin-collection.vercel.app",
+      "tech": ["Next.js", "Typescript", "Vercel"]
+    },
+    {
       "name": "Rick and Morty",
       "company": "Open Source",
       "description": "Rick and Morty is one of my favourite tv shows. I have created a simple app to browse the characters and episodes of the show. I have used ReactJs, Typescript, React Query, GraphQL, and ViteJS.",
