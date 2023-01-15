@@ -182,6 +182,13 @@
   "role": "Software Engineer",
   "projects": [
     {
+      "name": "Royal Mail Label Trimmer for Etsy Sellers",
+      "company": "Open Source",
+      "description": "Label trimmer software developed for my wife's Etsy store in the UK. It is written in Vite, React and Typescript.",
+      "link": "https://gregarious-froyo-02cdb6.netlify.app",
+      "tech": ["ReactJS", "Typescript", "Vite", "Netlify"]
+    },
+    {
       "name": "Workout Logging",
       "company": "Open Source",
       "description": "Workout tracker application that is written with Next.js and Typescript. It utilizes Firebase as a backend.",
