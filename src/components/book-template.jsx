@@ -34,7 +34,7 @@ export default function BookTemplate({ data }) {
     margin-bottom: 1rem;
   `
 
-  const Book = styled.div`
+  const Book = styled.article`
     max-width: 800px;
     margin: 0 auto;
   `

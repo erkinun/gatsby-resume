@@ -20,7 +20,7 @@ export default function BlogTemplate({ data }) {
     margin-bottom: 1rem;
   `
 
-  const Blog = styled.div`
+  const Blog = styled.article`
     max-width: 800px;
     margin: 0 auto;
   `
