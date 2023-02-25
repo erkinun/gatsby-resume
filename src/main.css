@@ -18,6 +18,7 @@
 
 .contact-link {
   @apply text-sm;
+  @apply text-blue-500;
 }
 
 .contact-link:hover {

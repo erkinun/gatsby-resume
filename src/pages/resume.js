@@ -21,7 +21,7 @@ const Home = () => (
         name={resume.fullname}
         role={resume.role}
       />
-      <div className="border-b border-gray-800 pb-2 my-5 lg:flex">
+      <div className="border-b border-gray-800 pb-2 my-5">
         <div className="lg:w-2/3 lg:pr-8">
           {resume.experience && <Experience data={resume.experience} />}
           {resume.projects && <Projects data={resume.projects} />}

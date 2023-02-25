@@ -94,11 +94,11 @@
   ],
   "experience": [
     {
-      "role": "Contract Software Engineer",
-      "company": "Novus Fortuna",
-      "tech": "typescript, javascript, docker, kubernetes, react, vite, redux, react query, mui, clojure, ring, node, lein",
-      "description": "I started Novus Fortuna to start contracting outside IR35 in the UK for full stack engineering positions. I've worked with a variety of clients and technologies including React, Redux, Node, Ring, Lein, Kotlin, Typescript, Clojure, Docker, Kubernetes, AWS, GCP, Firebase, Postgresql, ElasticSearch, Apache Spark, Akka, Gatsby, Express, and more.",
-      "start": "09/2022"
+      "role": "Senior Software Engineer - Contract",
+      "company": "JUXT (juxt.pro)",
+      "tech": "typescript, javascript, react, vite, graphql, vitest, mui, storybook, chromatic, eslint, prettier, react query, react location, docker, clojure, node, deps",
+      "description": "JUXT is my first client as a contractor. I'm working on an data operations web frontend for a client of JUXT that is building their own platform to ingest and shape data using the very data operations UI I'm building. I have been the sole developer on the UI project and set up the project with React/Typescript/Vite.js and React.query with Graphql, using Eslint+Prettier, Storybook with Chromatic and Vitest for testing. I have also set up the CI/CD pipeline with Github Actions. Finally, I have been contributing to the backend of the project (when required) which is written in Clojure.",
+      "start": "10/2022"
     },
     {
       "role": "Senior Software Engineer",
