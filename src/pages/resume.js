@@ -23,11 +23,12 @@ const Home = () => (
       />
       <div className="border-b border-gray-800 pb-2 my-5">
         <div className="lg:w-2/3 lg:pr-8">
+          {resume.skills && <Skills data={resume.skills} />}
           {resume.experience && <Experience data={resume.experience} />}
           {resume.projects && <Projects data={resume.projects} />}
         </div>
         <div className="lg:w-1/3 lg:pl-8 lg:border-l lg:border-gray-800 ">
-          {resume.skills && <Skills data={resume.skills} />}
+
           {resume.education && <Education data={resume.education} />}
           {resume.sidebar &&
             resume.sidebar.map((item) => (
