@@ -182,6 +182,13 @@
   "role": "Software Engineer",
   "projects": [
     {
+      "name": "Grocery List",
+      "company": "Open Source",
+      "description": "Grocery application written to make sharing and creating lists easier. It is written in Vite, React and Typescript.",
+      "link": "https://groceriesterminal.netlify.app/dashboard",
+      "tech": ["ReactJS", "Typescript", "Vite", "Netlify"]
+    },
+    {
       "name": "Royal Mail Label Trimmer for Etsy Sellers",
       "company": "Open Source",
       "description": "Label trimmer software developed for my wife's Etsy store in the UK. It is written in Vite, React and Typescript.",
@@ -207,7 +214,14 @@
       "company": "Open Source",
       "description": "Rick and Morty is one of my favourite tv shows. I have created a simple app to browse the characters and episodes of the show. I have used ReactJs, Typescript, React Query, GraphQL, and ViteJS.",
       "link": "https://lucent-piroshki-cd5b08.netlify.app/",
-      "tech": ["Typescript", "ViteJS", "React Query", "Netlify", "GraphQL", "ReactJs"]
+      "tech": [
+        "Typescript",
+        "ViteJS",
+        "React Query",
+        "Netlify",
+        "GraphQL",
+        "ReactJs"
+      ]
     },
     {
       "name": "Weather App",
