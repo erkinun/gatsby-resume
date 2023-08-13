@@ -182,6 +182,13 @@
   "role": "Software Engineer",
   "projects": [
     {
+      "name": "Gizem's Password Generator",
+      "company": "Open Source",
+      "description": "Password generator application heavily inspired by my wife's very similar work prior, helps with generating strong passwords when your browser or OS doesn't help. It is written in Vite, React and Typescript.",
+      "link": "https://gizemspassgenerator.netlify.app",
+      "tech": ["ReactJS", "Typescript", "Vite", "Netlify"]
+    },
+    {
       "name": "Grocery List",
       "company": "Open Source",
       "description": "Grocery application written to make sharing and creating lists easier. It is written in Vite, React and Typescript.",
