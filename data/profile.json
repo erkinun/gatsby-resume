@@ -182,13 +182,6 @@
   "role": "Software Engineer",
   "projects": [
     {
-      "name": "Gizem's Password Generator",
-      "company": "Open Source",
-      "description": "Password generator application heavily inspired by my wife's very similar work prior, helps with generating strong passwords when your browser or OS doesn't help. It is written in Vite, React and Typescript.",
-      "link": "https://gizemspassgenerator.netlify.app",
-      "tech": ["ReactJS", "Typescript", "Vite", "Netlify"]
-    },
-    {
       "name": "Grocery List",
       "company": "Open Source",
       "description": "Grocery application written to make sharing and creating lists easier. It is written in Vite, React and Typescript.",
@@ -200,6 +193,20 @@
       "company": "Open Source",
       "description": "Label trimmer software developed for my wife's Etsy store in the UK. It is written in Vite, React and Typescript.",
       "link": "https://etsylabelhandler.netlify.app/",
+      "tech": ["ReactJS", "Typescript", "Vite", "Netlify"]
+    },
+    {
+      "name": "TV Movie Searcher and List maker",
+      "company": "Open Source",
+      "description": "A movie and tv show search and list maker application written in Vite, React and Typescript. It uses the TMDB API to fetch the data, and Firebase to store the user's lists. It is deployed to Netlify.",
+      "link": "https://tvshowssearcher.netlify.app/",
+      "tech": ["ReactJS", "Typescript", "Vite", "Netlify", "Firebase"]
+    },
+    {
+      "name": "Gizem's Password Generator",
+      "company": "Open Source",
+      "description": "Password generator application heavily inspired by my wife's very similar work prior, helps with generating strong passwords when your browser or OS doesn't help. It is written in Vite, React and Typescript.",
+      "link": "https://gizemspassgenerator.netlify.app",
       "tech": ["ReactJS", "Typescript", "Vite", "Netlify"]
     },
     {
@@ -215,6 +222,13 @@
       "description": "A bin collection site I created for my neighbourhood. It is written with Next.js and Typescript.",
       "link": "https://bin-collection.vercel.app",
       "tech": ["Next.js", "Typescript", "Vercel"]
+    },
+    {
+      "name": "Welcome to London fun page for friends",
+      "company": "Open Source",
+      "description": "A fun page for my friends who are visiting London. It is written in Vite, React and Typescript. It is deployed to Netlify.",
+      "link": "https://ozveozanlondraseyahati.netlify.app",
+      "tech": ["ReactJS", "Typescript", "Vite", "Netlify"]
     },
     {
       "name": "Rick and Morty",
