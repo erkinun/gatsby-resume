@@ -199,7 +199,7 @@
       "name": "Royal Mail Label Trimmer for Etsy Sellers",
       "company": "Open Source",
       "description": "Label trimmer software developed for my wife's Etsy store in the UK. It is written in Vite, React and Typescript.",
-      "link": "https://gregarious-froyo-02cdb6.netlify.app",
+      "link": "https://etsylabelhandler.netlify.app/",
       "tech": ["ReactJS", "Typescript", "Vite", "Netlify"]
     },
     {
