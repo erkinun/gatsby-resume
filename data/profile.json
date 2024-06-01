@@ -182,6 +182,13 @@
   "role": "Software Engineer",
   "projects": [
     {
+      "name": "TicTacToe",
+      "company": "Open Source",
+      "description": "Simple Tic Tac Toe game written as an exercise over a weekend, exploring how a very simple game loop operates. It is written in Vite, React and Typescript.",
+      "link": "https://tictactoevitets.netlify.app/",
+      "tech": ["ReactJS", "Typescript", "Vite", "Netlify", "Playwright"]
+    },
+    {
       "name": "Grocery List",
       "company": "Open Source",
       "description": "Grocery application written to make sharing and creating lists easier. It is written in Vite, React and Typescript.",
