@@ -13,9 +13,7 @@ export const query = graphql`
   query {
     file(relativePath: { eq: "profile.png" }) {
       childImageSharp {
-        fluid(maxWidth: 300) {
-          ...GatsbyImageSharpFluid_noBase64
-        }
+        gatsbyImageData(width: 300, layout: CONSTRAINED, placeholder: NONE)
       }
     }
   }

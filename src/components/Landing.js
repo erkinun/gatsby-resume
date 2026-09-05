@@ -1,5 +1,5 @@
 import React from 'react'
-import Img from 'gatsby-image'
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import styled from 'styled-components'
 
 import StyledLink, { blue } from './styledLink'
@@ -15,7 +15,7 @@ const Welcome = styled.span`
   display: block;
 `
 
-const StyledImg = styled(Img)`
+const StyledImg = styled(GatsbyImage)`
   border-radius: 25px;
   width: 300px;
 `
@@ -24,7 +24,7 @@ const Landing = ({ data }) => (
   <div className="h-auto w-auto py-10 sm:px-10 lg:flex items-center">
     <StyledImg
       className="rounded flex-shrink-0 mx-auto w-32 lg:w-full xl:w-4/5"
-      fluid={data.file.childImageSharp.fluid}
+      image={getImage(data.file)}
       alt="profile"
     />
     <Paragraph className="text-center px-10 tracking-wide leading-relaxed lg:text-left lg:text-lg text-white">

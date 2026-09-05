@@ -1,28 +1,32 @@
 module.exports = {
   stories: ['../src/**/*.stories.js'],
-  addons: ['@storybook/addon-actions', '@storybook/addon-links'],
+  // Storybook 8+ ships no JS compiler by default; without this addon the JSX
+  // in .js story/component files is never transpiled.
+  addons: ['@storybook/addon-links', '@storybook/addon-webpack5-compiler-swc'],
+  framework: {
+    name: '@storybook/react-webpack5',
+    options: {},
+  },
   webpackFinal: async config => {
-    // Transpile Gatsby module because Gatsby includes un-transpiled ES6 code.
-    config.module.rules[0].exclude = [/node_modules\/(?!(gatsby)\/)/]
-
-    // use installed babel-loader which is v8.0-beta (which is meant to work with @babel/core@7)
-    config.module.rules[0].use[0].loader = require.resolve('babel-loader')
-
-    // use @babel/preset-react for JSX and env (instead of staged presets)
-    config.module.rules[0].use[0].options.presets = [
-      require.resolve('@babel/preset-react'),
-      require.resolve('@babel/preset-env'),
-    ]
-
-    config.module.rules[0].use[0].options.plugins = [
-      // use @babel/plugin-proposal-class-properties for class arrow functions
-      require.resolve('@babel/plugin-proposal-class-properties'),
-      // use babel-plugin-remove-graphql-queries to remove static queries from components when rendering in storybook
-      require.resolve('babel-plugin-remove-graphql-queries'),
-    ]
-
-    // Prefer Gatsby ES6 entrypoint (module) over commonjs (main) entrypoint
+    // Prefer Gatsby's ES6 entrypoint (module) over the commonjs (main) one,
+    // so webpack gets the browser build of gatsby-link.
     config.resolve.mainFields = ['browser', 'module', 'main']
+
+    // That browser build ships untranspiled JSX in gatsby/cache-dir, and the
+    // compiler addon only covers our own source, so transpile Gatsby too.
+    config.module.rules.push({
+      test: /\.jsx?$/,
+      include: /node_modules[\\/]gatsby/,
+      use: {
+        loader: require.resolve('swc-loader'),
+        options: {
+          jsc: {
+            parser: { syntax: 'ecmascript', jsx: true },
+            transform: { react: { runtime: 'automatic' } },
+          },
+        },
+      },
+    })
 
     return config
   },
